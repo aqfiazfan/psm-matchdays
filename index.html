@@ -41,53 +41,55 @@
 
   /* ====== HEADER ====== */
   /* Hero section dengan banner ilustrasi sebagai background */
+  /* ====== MERAH MEMBARA HEADER ====== */
   header.hero {
-    background-color: var(--persib-cream);
+    background-color: #1a0505;
     background-image: url('psm_header_new2.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center 30%;
     background-repeat: no-repeat;
-    color: var(--persib-blue-dark);
-    padding: 70px 24px 100px;
+    color: white;
+    padding: 0;
     position: relative;
     overflow: hidden;
     text-align: center;
-    min-height: 480px;
+    min-height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* Fallback: kalau image tidak load, balik ke gradient biru + text putih */
-  header.hero.no-image {
-    background-image: linear-gradient(160deg, var(--psm-dark) 0%, #3a0000 100%);
-    color: white;
-  }
-  header.hero.no-image::before {
+  /* Dark red overlay — creates cinematic depth over the photo */
+  header.hero::before {
     content:""; position:absolute; inset:0;
-    background-image: radial-gradient(circle at 20% 30%, rgba(253,185,19,0.12) 0%, transparent 40%),
-                      radial-gradient(circle at 80% 70%, rgba(255,255,255,0.06) 0%, transparent 40%);
-    pointer-events: none;
+    background:
+      linear-gradient(to bottom,
+        rgba(80,5,5,0.88) 0%,
+        rgba(140,8,8,0.72) 35%,
+        rgba(100,5,5,0.78) 70%,
+        rgba(20,2,2,0.92) 100%);
+    pointer-events:none; z-index:1;
   }
-  /* Subtle white overlay di tengah supaya teks gelap kontras dengan area putih image */
+  /* Gold rule at very bottom */
   header.hero::after {
     content:""; position:absolute; left:0; right:0; bottom:0;
-    height: 4px;
-    background: linear-gradient(90deg, transparent 0%, var(--persib-gold) 50%, transparent 100%);
+    height: 5px;
+    background: linear-gradient(90deg, transparent 0%, #F5A623 30%, #FFD166 50%, #F5A623 70%, transparent 100%);
+    z-index:3;
   }
   .hero-inner {
-    max-width: 760px; margin: 0 auto; position: relative;
-    /* Tanpa background — biar ilustrasi full kebaca; teks pakai shadow */
-    background: transparent;
-    padding: 20px 24px;
+    max-width: 860px; margin: 0 auto; position: relative;
+    z-index:2; padding: 52px 32px 36px;
   }
-  /* Text shadow halo putih untuk teks gelap di atas image */
+  /* All text in header: white, strong shadow */
   .hero-text-shadow {
-    text-shadow:
-      0 0 12px rgba(255,255,255,0.95),
-      0 0 4px rgba(255,255,255,0.95),
-      0 1px 2px rgba(255,255,255,0.8),
-      0 0 24px rgba(255,255,255,0.6);
+    text-shadow: 0 2px 12px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9);
   }
+  /* Fallback when no image */
+  header.hero.no-image {
+    background-image: linear-gradient(145deg, #4a0000 0%, #D62026 45%, #6B0000 100%);
+    color: white;
+  }
+  header.hero.no-image::before { display:none; }
   /* Logo natural — tanpa frame circle, ukuran asli */
   .logo-wrap {
     display: inline-block;
@@ -100,8 +102,11 @@
   }
   .eyebrow {
     font-family: system-ui, sans-serif;
-    font-size: 12px; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 3px;
+    font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 4px;
+    color: #F5A623 !important;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.7) !important;
+    margin-bottom: 14px;
     color: var(--persib-blue);
     margin-bottom: 12px;
     text-shadow:
@@ -111,8 +116,9 @@
   header.hero.no-image .eyebrow { color: var(--persib-gold); text-shadow: none; }
   header h1 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(32px, 5vw, 58px);
+    font-size: clamp(36px, 6vw, 72px);
     font-weight: 900;
+    color: white !important;
     line-height: 1.08;
     letter-spacing: -1px;
     margin-bottom: 14px;
@@ -129,10 +135,10 @@
   }
   header h1 em {
     font-style: italic; font-weight: 400;
-    color: var(--psm-red);
+    color: #F5A623;
     display: block;
-    font-size: 0.85em;
-    margin-top: 4px;
+    font-size: 0.72em;
+    margin-top: 6px;
   }
   header.hero.no-image h1 em { color: var(--persib-gold); }
   /* Wrapper block agar subtitle tidak overflow inline ke byline */
@@ -144,9 +150,9 @@
     line-height: 2.1;
   }
   .hero-subtitle {
-    font-size: 17px;
-    color: var(--persib-blue-dark);
-    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255,255,255,0.80) !important;
+    font-weight: 500;
     text-shadow: none;
     /* Highlighter-style background kuning emas */
     background: linear-gradient(180deg, transparent 0%, transparent 8%, rgba(253,185,19,0.88) 8%, rgba(253,185,19,0.88) 92%, transparent 92%);
@@ -165,13 +171,14 @@
     display: block;
     width: 100%;
     text-align: center;
-    margin-top: 56px;
+    margin-top: 28px;
   }
   .hero-byline {
     margin-top: 0;
     display: inline-block;
-    background: var(--persib-blue);
-    color: white;
+    background: rgba(245,166,35,0.15);
+    border: 1px solid rgba(245,166,35,0.4);
+    color: rgba(255,255,255,0.85);
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
@@ -180,8 +187,7 @@
     border-radius: 0;
     box-shadow: 0 6px 18px rgba(0,30,90,0.4);
     text-shadow: none;
-    border-top: 3px solid var(--persib-gold);
-    border-bottom: 3px solid var(--persib-gold);
+    border-radius: 4px;
   }
   header.hero.no-image .hero-byline {
     background: var(--persib-blue);
