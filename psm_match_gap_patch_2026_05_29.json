@@ -1,0 +1,1226 @@
+{
+  "dataset_id": "psm_match_gap_patch_2026_05_29",
+  "team": "PSM Makassar",
+  "generated_at": "2026-05-29",
+  "scope": "Tambalan match yang kurang dari audit PSM per musim; fokus pada musim dengan sumber yang berhasil diverifikasi pada pass ini.",
+  "baseline_files_considered": [
+    "psm_data_gap_audit_expanded_by_season.json",
+    "psm_focus_2003_2005_isl_2008_09_best_effort.json",
+    "psm_ligina_1994_2008_best_effort.json"
+  ],
+  "summary": {
+    "seasons_touched": 4,
+    "verified_patch_matches_added_excluding_rebuilt_full_2025_26": 17,
+    "full_season_rebuilt_matches_2025_26": 34,
+    "counts_after_patch": {
+      "2003": "37/38 known; 1 unresolved",
+      "2004": "23/34 known; 11 unresolved",
+      "2008/09": "19/34 known in audit-based count; 15 unresolved",
+      "2025/26": "34/34 complete from Futbol24 results page"
+    },
+    "important_caveat": "File ini adalah patch/verifikasi tambahan, bukan klaim bahwa seluruh database PSM lintas 1930-an–2026 sudah 100% lengkap. Beberapa musim lama dan musim modern tertentu masih memerlukan ekstraksi arsip lanjutan."
+  },
+  "sources": {
+    "arsip_liga_indonesia_2003": {
+      "title": "Divisi Utama Liga Indonesia 2003 - Arsip Sepak Bola Indonesia",
+      "url": "https://www.arsipsepakbolaindonesia.com/2003/01/liga-indonesia-2003.html",
+      "notes": "Sumber utama untuk tambalan 2003; memuat hasil dan pencetak gol banyak laga."
+    },
+    "arsip_liga_indonesia_2004": {
+      "title": "Divisi Utama Liga Indonesia 2004 - Arsip Sepak Bola Indonesia",
+      "url": "https://www.arsipsepakbolaindonesia.com/2004/01/liga-indonesia-2004.html",
+      "notes": "Sumber utama untuk tambalan 2004; memuat hasil dan pencetak gol banyak laga."
+    },
+    "futbol24_psm_results": {
+      "title": "PSM Makassar Results - Futbol24",
+      "url": "https://www.futbol24.com/team/Indonesia/PSM-Makassar/results",
+      "notes": "Dipakai untuk tambalan hasil modern dan Liga 1 2025/26."
+    },
+    "futbol24_isl_2008_09": {
+      "title": "Indonesia Liga Super 2008/2009 Results - Futbol24",
+      "url": "https://www.futbol24.com/national/Indonesia/Liga-Super/2008-2009/results",
+      "notes": "Dipakai untuk tambalan ISL 2008/09."
+    }
+  },
+  "season_updates": [
+    {
+      "season": "2003",
+      "audit_year": 2003,
+      "baseline_available_count_from_audit": 28,
+      "target_match_count": 38,
+      "matches_added_count": 9,
+      "available_count_after_patch": 37,
+      "remaining_missing_estimate": 1,
+      "status_after_patch": "near_complete_but_still_one_unverified_gap",
+      "remaining_gap_note": "Satu laga belum ketemu aman di sumber terbuka: kemungkinan PSM Makassar vs Persipura Jayapura pada putaran kandang 2003.",
+      "matches_added": [
+        {
+          "match_uid": "69b186a6f417",
+          "season": "2003",
+          "date": "2003-01-22",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "Arema Malang",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Christian Gonzales 29'",
+              "Oscar Aravena 44'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "515a3def3d50",
+          "season": "2003",
+          "date": "2003-01-26",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 4,
+          "away_score": 0,
+          "away_team": "Perseden Denpasar",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Oscar Aravena 9'",
+              "Oscar Aravena 32'",
+              "Oscar Aravena 50'",
+              "Jorge Toledo 81'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "d8510d324448",
+          "season": "2003",
+          "date": "2003-02-16",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSIS Semarang",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Christian Gonzales 79'"
+            ],
+            "PSIS Semarang": [
+              "German Osorio 50'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "225a47260d74",
+          "season": "2003",
+          "date": "2003-03-16",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSPS Pekanbaru",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Rumbai, Pekanbaru",
+          "neutral": false,
+          "scorers": {
+            "PSPS Pekanbaru": [
+              "Ade Bayo Gbadebo 63'",
+              "Erol FX Iba 77'",
+              "Kurniawan D. Yulianto 89'"
+            ],
+            "PSM Makassar": [
+              "Christian Gonzales 60'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "cf33995b14af",
+          "season": "2003",
+          "date": "2003-03-19",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persita Tangerang",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Benteng, Tangerang",
+          "neutral": false,
+          "scorers": {
+            "Persita Tangerang": [
+              "Zaenal Arif 1'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "6ef12b2df1ef",
+          "season": "2003",
+          "date": "2003-04-20",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persija Jakarta",
+          "home_score": 0,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Lebak Bulus, Jakarta",
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "64f19904cdf4",
+          "season": "2003",
+          "date": "2003-05-18",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "Perseden Denpasar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Ngurah Rai, Denpasar",
+          "neutral": false,
+          "scorers": {
+            "Perseden Denpasar": [
+              "Agus Susanto 38'",
+              "Miro Baldo Bento 45'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "c59a489ed3b2",
+          "season": "2003",
+          "date": "2003-05-22",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "Arema Malang",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Gajayana, Malang",
+          "neutral": false,
+          "scorers": {
+            "Arema Malang": [
+              "Rodrigo Araya 11'"
+            ],
+            "PSM Makassar": [
+              "Christian Gonzales 59'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "87541fd56c36",
+          "season": "2003",
+          "date": "2003-09-10",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Pelita Krakatau Steel",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Oscar Aravena 9'",
+              "Oscar Aravena 63'",
+              "Oscar Aravena 88'"
+            ],
+            "Pelita Krakatau Steel": [
+              "Nkene 84'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2003"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "season": "2004",
+      "audit_year": 2004,
+      "baseline_available_count_from_audit": 17,
+      "target_match_count": 34,
+      "matches_added_count": 6,
+      "available_count_after_patch": 23,
+      "remaining_missing_estimate": 11,
+      "status_after_patch": "partial_improved",
+      "remaining_gap_note": "Masih butuh sisir ulang arsip 2004 bagian putaran kedua/akhir untuk mencapai 34 match.",
+      "matches_added": [
+        {
+          "match_uid": "542cda243909",
+          "season": "2004",
+          "date": "2004-03-03",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "Pupuk Kaltim",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Marcelo Ramos 60'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2004"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "33767b368bc3",
+          "season": "2004",
+          "date": "2004-04-11",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSMS Medan",
+          "home_score": 0,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Teladan, Medan",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Marcelo Ramos 87'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2004"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "97598ae9b43e",
+          "season": "2004",
+          "date": "2004-04-15",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSPS Pekanbaru",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Rumbai, Pekanbaru",
+          "neutral": false,
+          "scorers": {
+            "PSPS Pekanbaru": [
+              "Joe Nagbe 59'"
+            ],
+            "PSM Makassar": [
+              "Marcelo Ramos 7'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2004"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "2422bd7ea93b",
+          "season": "2004",
+          "date": "2004-04-28",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "Persita Tangerang",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Ortizan Solossa 83'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2004"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "d748d7aa6663",
+          "season": "2004",
+          "date": "2004-05-02",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Semen Padang",
+          "venue": "Stadion Mattoangin, Makassar",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Marcelo Ramos 12'",
+              "Ortizan Solossa 34'",
+              "Ronald Fagundez 44' (pen.)"
+            ],
+            "Semen Padang": [
+              "Alex Daniel Cabrero 43'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2004"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "c5303ca0a54e",
+          "season": "2004",
+          "date": "2004-05-12",
+          "competition": "Liga Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persipura Jayapura",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Stadion Mandala, Jayapura",
+          "neutral": false,
+          "scorers": {
+            "Persipura Jayapura": [
+              "David da Rocha 65' (pen.)"
+            ],
+            "PSM Makassar": [
+              "Marcelo Ramos 47'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_liga_indonesia_2004"
+          ],
+          "notes": "Kartu merah: David da Rocha 68' (Persipura)."
+        }
+      ]
+    },
+    {
+      "season": "2008/09",
+      "audit_year": 2009,
+      "baseline_available_count_from_audit": 17,
+      "target_match_count": 34,
+      "matches_added_count": 2,
+      "available_count_after_patch": 19,
+      "remaining_missing_estimate": 15,
+      "status_after_patch": "partial_improved",
+      "remaining_gap_note": "Tambahan dari Futbol24 baru menambah dua laga akhir musim; daftar lengkap ISL 2008/09 masih perlu ekstraksi penuh per matchday.",
+      "matches_added": [
+        {
+          "match_uid": "efccf590d2e1",
+          "season": "2008/09",
+          "date": "2009-05-21",
+          "competition": "Indonesia Super League",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "Bontang PKT",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_isl_2008_09",
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "72f81cefa04f",
+          "season": "2008/09",
+          "date": "2009-05-30",
+          "competition": "Indonesia Super League",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "Persik Kediri",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_isl_2008_09",
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "season": "2025/26",
+      "audit_year": 2026,
+      "baseline_available_count_from_audit": 20,
+      "target_match_count": 34,
+      "matches_added_or_rebuilt_count": 34,
+      "available_count_after_patch": 34,
+      "remaining_missing_estimate": 0,
+      "status_after_patch": "complete_from_futbol24_team_results",
+      "remaining_gap_note": null,
+      "full_season_matches": [
+        {
+          "match_uid": "50ca2f40f449",
+          "season": "2025/26",
+          "date": "2025-08-08",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Persijap Jepara",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e28aaa9f9b8e",
+          "season": "2025/26",
+          "date": "2025-08-16",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Bhayangkara FC",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "eda7722c2db2",
+          "season": "2025/26",
+          "date": "2025-08-22",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Semen Padang",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "1973c3ca8ea2",
+          "season": "2025/26",
+          "date": "2025-09-11",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persita Tangerang",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "33bc7e424e85",
+          "season": "2025/26",
+          "date": "2025-09-21",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "Persija Jakarta",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "de3468796f9c",
+          "season": "2025/26",
+          "date": "2025-09-27",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 0,
+          "away_score": 0,
+          "away_team": "PSIM Yogyakarta",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "c9d6ffc323d0",
+          "season": "2025/26",
+          "date": "2025-10-19",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 2,
+          "away_team": "Arema FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "4d4d39e7f9e1",
+          "season": "2025/26",
+          "date": "2025-10-25",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persik Kediri",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "a41a3eabdcee",
+          "season": "2025/26",
+          "date": "2025-11-02",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Madura United FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e7adacd1edab",
+          "season": "2025/26",
+          "date": "2025-11-09",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Dewa United FC",
+          "home_score": 0,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "ea6539d61331",
+          "season": "2025/26",
+          "date": "2025-11-21",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 5,
+          "away_score": 0,
+          "away_team": "PSBS Biak Numfor",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "96ffbc8e356b",
+          "season": "2025/26",
+          "date": "2025-11-29",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persis Solo FC",
+          "home_score": 3,
+          "away_score": 4,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "b72940d045f8",
+          "season": "2025/26",
+          "date": "2025-12-06",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Persebaya Surabaya",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "a889d362007e",
+          "season": "2025/26",
+          "date": "2025-12-21",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 0,
+          "away_score": 1,
+          "away_team": "Malut United FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "1e2ae03db514",
+          "season": "2025/26",
+          "date": "2025-12-27",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persib Bandung",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e961e7196523",
+          "season": "2025/26",
+          "date": "2026-01-03",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Borneo FC",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "ab35550d784d",
+          "season": "2025/26",
+          "date": "2026-01-09",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 0,
+          "away_score": 2,
+          "away_team": "Bali United Pusam",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e290cb5cef59",
+          "season": "2025/26",
+          "date": "2026-01-24",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persijap Jepara",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "899011d31553",
+          "season": "2025/26",
+          "date": "2026-02-02",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 0,
+          "away_score": 0,
+          "away_team": "Semen Padang",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "0847bd2bc932",
+          "season": "2025/26",
+          "date": "2026-02-08",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSBS Biak Numfor",
+          "home_score": 1,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "752d57890ef2",
+          "season": "2025/26",
+          "date": "2026-02-14",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 0,
+          "away_score": 2,
+          "away_team": "Dewa United FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "53d8e6717ff0",
+          "season": "2025/26",
+          "date": "2026-02-20",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persija Jakarta",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "085904d0055b",
+          "season": "2025/26",
+          "date": "2026-02-25",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Persebaya Surabaya",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e3c2b3123d61",
+          "season": "2025/26",
+          "date": "2026-03-02",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 4,
+          "away_team": "Persita Tangerang",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "3cddfd57f61a",
+          "season": "2025/26",
+          "date": "2026-03-07",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Malut United FC",
+          "home_score": 3,
+          "away_score": 3,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "69aaf6fece70",
+          "season": "2025/26",
+          "date": "2026-04-04",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Persis Solo FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "ed14dc2c54a8",
+          "season": "2025/26",
+          "date": "2026-04-10",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSIM Yogyakarta",
+          "home_score": 1,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "3c1591a21223",
+          "season": "2025/26",
+          "date": "2026-04-18",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 2,
+          "away_team": "Borneo FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "c9c0e3eb5974",
+          "season": "2025/26",
+          "date": "2026-04-23",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Persik Kediri",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e2bcde9ef89a",
+          "season": "2025/26",
+          "date": "2026-04-27",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Bali United Pusam",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "fc629dab6ecc",
+          "season": "2025/26",
+          "date": "2026-05-04",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "Bhayangkara FC",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "1c263cbe5bc0",
+          "season": "2025/26",
+          "date": "2026-05-09",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Arema FC",
+          "home_score": 3,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "1414dc4b7e7e",
+          "season": "2025/26",
+          "date": "2026-05-17",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 2,
+          "away_team": "Persib Bandung",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        },
+        {
+          "match_uid": "e69fd00f0d05",
+          "season": "2025/26",
+          "date": "2026-05-23",
+          "competition": "Liga 1 / Super League Indonesia",
+          "stage": "regular_season",
+          "home_team": "Madura United FC",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "venue": null,
+          "neutral": false,
+          "scorers": {},
+          "confidence": "high",
+          "source_ids": [
+            "futbol24_psm_results"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "still_unresolved_priority_list": [
+    {
+      "season": "1995/96",
+      "missing_estimate": 3,
+      "note": "Perlu tambalan reguler Ligina 1995/96."
+    },
+    {
+      "season": "1997/98",
+      "missing_estimate": 10,
+      "note": "Musim dihentikan; data tetap perlu dibedakan dari musim normal."
+    },
+    {
+      "season": "2001",
+      "missing_estimate": 10,
+      "note": "Butuh arsip Liga 2001/2000-01."
+    },
+    {
+      "season": "2003",
+      "missing_estimate": 1,
+      "note": "Masih belum ketemu aman: kemungkinan PSM vs Persipura."
+    },
+    {
+      "season": "2004",
+      "missing_estimate": 11,
+      "note": "Sudah ditambah 6, tetapi belum lengkap 34."
+    },
+    {
+      "season": "2005",
+      "missing_estimate": 17,
+      "note": "Reguler 2005 masih minim; 8 besar sudah aman."
+    },
+    {
+      "season": "2008/09",
+      "missing_estimate": 15,
+      "note": "Butuh ekstraksi penuh ISL 2008/09."
+    },
+    {
+      "season": "2009/10",
+      "missing_estimate": 6,
+      "note": "Butuh Futbol24/arsip ISL 2009/10."
+    },
+    {
+      "season": "2011 LPI",
+      "missing_estimate": null,
+      "note": "Sumber sangat terbatas dan format LPI bermasalah."
+    },
+    {
+      "season": "2012 LPI",
+      "missing_estimate": 9,
+      "note": "Butuh ekstraksi IPL/LPI 2011/12."
+    },
+    {
+      "season": "2013/14 ISL",
+      "missing_estimate": 8,
+      "note": "Butuh ekstraksi ISL 2014 lengkap."
+    },
+    {
+      "season": "2021 Liga 1",
+      "missing_estimate": 10,
+      "note": "Futbol24 punya hasil 2021/22 tetapi belum diekstrak penuh di patch ini."
+    }
+  ],
+  "recommended_next_queries": [
+    "\"PSM Makassar\" \"Persipura Jayapura\" \"2003\" \"Mattoangin\"",
+    "\"Liga Indonesia 2004\" \"PSM Makassar\" \"Mattoangin\" \"Pencetak Gol\"",
+    "\"PSM Makassar\" \"Liga Djarum Indonesia 2005\" \"Pencetak Gol\"",
+    "\"PSM Makassar\" \"Indonesia Super League 2008/2009\" \"Futbol24\""
+  ]
+}
