@@ -1,0 +1,1073 @@
+{
+  "dataset": "PSM Makassar focused recovery: Liga Indonesia 2003-2005 and ISL transition 2007/08-2008/09",
+  "generated_at": "2026-05-29",
+  "scope_note": "Best-effort recovery focused on seasons previously marked incomplete. Dates with uncertainty are null or marked medium/low confidence. 'ISL 2007-2008' is corrected to 2008/09, because the first ISL season was 2008/09; 2007/08 is kept as a clarification entry.",
+  "sources": {
+    "arsip_2003": {
+      "title": "Arsip Sepak Bola Indonesia - Liga Indonesia 2003",
+      "url": "https://www.arsipsepakbolaindonesia.com/2003/01/liga-indonesia-2003.html",
+      "notes": "Main source for 2003 match snippets and final table."
+    },
+    "arsip_2004": {
+      "title": "Arsip Sepak Bola Indonesia - Liga Indonesia 2004",
+      "url": "https://www.arsipsepakbolaindonesia.com/2004/01/liga-indonesia-2004.html",
+      "notes": "Main source for 2004 match snippets."
+    },
+    "arsip_2005": {
+      "title": "Arsip Sepak Bola Indonesia - Liga Indonesia 2005",
+      "url": "https://www.arsipsepakbolaindonesia.com/2005/01/liga-indonesia-2005.html",
+      "notes": "Main source for 2005 standings and 8 besar results."
+    },
+    "rsssf_wiki_isl_2008_09": {
+      "title": "2008-09 Indonesia Super League summary/table",
+      "url": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Indonesia_Super_League",
+      "notes": "Used for first ISL season context, final table, and notable PSM match records."
+    },
+    "worldfootball_isl_2008_09": {
+      "title": "worldfootball.net - Indonesia Super League 2008/2009 schedule snippets",
+      "url": "https://www.worldfootball.net/schedule/idn-super-league-2008-2009-spieltag/",
+      "notes": "Search result snippets used for some individual ISL match results."
+    },
+    "ogol_isl_2008_09": {
+      "title": "ogol.com.br / zerozero - PSM vs Persipura ISL 2008/09 snippet",
+      "url": "https://www.ogol.com.br/jogo/2008-08-10-psm-makassar-persipura-jayapura/1179423",
+      "notes": "Search result snippet used for PSM 1-1 Persipura on 2008-08-10."
+    },
+    "keidenesia_h2h_persebaya_psm": {
+      "title": "Keidenesia - Persebaya vs PSM head-to-head",
+      "url": "https://keidenesia.com/2024/10/20/head-to-head-persebaya-vs-psm-makassar/",
+      "notes": "Used cautiously for 2005 PSM-Persebaya regular-season H2H where exact dates were not recovered."
+    },
+    "detik_2004_psm_persebaya": {
+      "title": "Detik - PSM taklukkan Persebaya 3-1",
+      "url": "https://sport.detik.com/sepakbola/liga-indonesia/d-217861/psm-taklukkan-persebaya-3-1",
+      "notes": "Corroborates PSM 3-1 Persebaya on 2004-09-29."
+    },
+    "detik_2005_psm_persebaya": {
+      "title": "Detik - Persebaya ditahan imbang PSM 2-2",
+      "url": "https://sport.detik.com/sepakbola/liga-indonesia/d-443075/persebaya-ditahan-imbang-psm-2-2",
+      "notes": "Corroborates 8 besar match PSM 2-2 Persebaya on 2005-09-16."
+    }
+  },
+  "seasons": [
+    {
+      "season": "2003",
+      "competition": "Liga Indonesia Premier Division / Liga Bank Mandiri 2003",
+      "coverage": "improved_partial_match_list",
+      "psm_final_table": {
+        "rank": 2,
+        "played": 38,
+        "won": 18,
+        "drawn": 8,
+        "lost": 12,
+        "goals_for": 68,
+        "goals_against": 48,
+        "goal_difference": 20,
+        "points": 62
+      },
+      "known_matches_count": 28,
+      "expected_matches_from_table": 38,
+      "known_matches": [
+        {
+          "date": "2003-01-12",
+          "stage": "regular_season",
+          "home_team": "Persipura Jayapura",
+          "home_score": 0,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Mandala, Jayapura",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Christian Gonzales 56'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-02-02",
+          "stage": "regular_season",
+          "home_team": "Barito Putra",
+          "home_score": 3,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-02-06",
+          "stage": "regular_season",
+          "home_team": "Petrokimia Putra",
+          "home_score": 1,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-02-13",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 3,
+          "away_team": "Persik Kediri",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-02-23",
+          "stage": "regular_season",
+          "home_team": "Pupuk Kaltim",
+          "home_score": 0,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-02-27",
+          "stage": "regular_season",
+          "home_team": "Deltras Sidoarjo",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-03-05",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 0,
+          "away_team": "PSDS Deli Serdang",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-03-09",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 0,
+          "away_team": "Semen Padang",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-03-26",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 5,
+          "away_score": 1,
+          "away_team": "PSS Sleman",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-03-29",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Persijatim Solo FC",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-04-06",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Persib Bandung",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-04-10",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 5,
+          "away_score": 2,
+          "away_team": "Persikota Tangerang",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-04-16",
+          "stage": "regular_season",
+          "home_team": "Pelita Krakatau Steel",
+          "home_score": 4,
+          "away_score": 3,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-06-11",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "Barito Putra",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-06-15",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Petrokimia Putra",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-06-22",
+          "stage": "regular_season",
+          "home_team": "Persik Kediri",
+          "home_score": 3,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-06-26",
+          "stage": "regular_season",
+          "home_team": "PSIS Semarang",
+          "home_score": 0,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-07-02",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "Pupuk Kaltim",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-07-06",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "Deltras Sidoarjo",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-07-31",
+          "stage": "regular_season",
+          "home_team": "PSDS Deli Serdang",
+          "home_score": 0,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-08-03",
+          "stage": "regular_season",
+          "home_team": "Semen Padang",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-08-10",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 4,
+          "away_score": 1,
+          "away_team": "PSPS Pekanbaru",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-08-14",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "Persita Tangerang",
+          "venue": "Andi Mattalatta/Mattoangin, Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-08-20",
+          "stage": "regular_season",
+          "home_team": "PSS Sleman",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-08-24",
+          "stage": "regular_season",
+          "home_team": "Persijatim Solo FC",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-08-31",
+          "stage": "regular_season",
+          "home_team": "Persib Bandung",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-09-04",
+          "stage": "regular_season",
+          "home_team": "Persikota Tangerang",
+          "home_score": 4,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        },
+        {
+          "date": "2003-09-14",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 5,
+          "away_score": 2,
+          "away_team": "Persija Jakarta",
+          "neutral": false,
+          "notes": "Date taken from surrounding fixture context; score line verified in source snippet.",
+          "confidence": "medium",
+          "source_ids": [
+            "arsip_2003"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "Still missing 10 of 38 league results from recovered snippets.",
+        "Opponents still likely missing include several home/away pairings not captured by parser; do not infer them without separate evidence."
+      ],
+      "source_ids": [
+        "arsip_2003"
+      ]
+    },
+    {
+      "season": "2004",
+      "competition": "Liga Indonesia Premier Division / Liga Bank Mandiri 2004",
+      "coverage": "partial_match_list_plus_final_table",
+      "psm_final_table": {
+        "rank": 2,
+        "played": 34,
+        "won": 17,
+        "drawn": 10,
+        "lost": 7,
+        "goals_for": 46,
+        "goals_against": 28,
+        "goal_difference": 18,
+        "points": 61
+      },
+      "known_matches_count": 17,
+      "expected_matches_from_table": 34,
+      "known_matches": [
+        {
+          "stage": "regular_season",
+          "home_team": "PSIS Semarang",
+          "home_score": 0,
+          "away_score": 2,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "notes": "Score verified; exact date not safely recovered from snippet.",
+          "confidence": "medium",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-01-13",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "Persijatim Solo FC",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Charis Yulianto 43'",
+              "Christian Gonzales 83'"
+            ],
+            "Persijatim Solo FC": [
+              "Maman Abdurahman 71'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-01-17",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "Persik Kediri",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Christian Gonzales 55'",
+              "Christian Gonzales 76'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-01-21",
+          "stage": "regular_season",
+          "home_team": "Pelita Krakatau Steel",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "scorers": {
+            "Pelita Krakatau Steel": [
+              "Emanuel Ayuk 50'",
+              "Emanuel Ayuk 61'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-01-25",
+          "stage": "regular_season",
+          "home_team": "Persija Jakarta",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Persikota Tangerang",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Jack Komboy 4'",
+              "German Parillo 33'",
+              "Ponaryo Astaman 82'"
+            ],
+            "Persikota Tangerang": [
+              "Supriyono 44'"
+            ]
+          },
+          "notes": "Score and scorers verified; date not safely recovered from snippet.",
+          "confidence": "medium",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-02-01",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 0,
+          "away_team": "Persib Bandung",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Syamsul Chaeruddin 59'",
+              "Christian Gonzales 62'",
+              "Irsyad 64'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-02-17",
+          "stage": "regular_season",
+          "home_team": "Persela Lamongan",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-02-21",
+          "stage": "regular_season",
+          "home_team": "Persebaya Surabaya",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "scorers": {
+            "Persebaya Surabaya": [
+              "Danilo Fernando 65' pen"
+            ],
+            "PSM Makassar": [
+              "Ponaryo Astaman 88'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-08-19",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 6,
+          "away_score": 2,
+          "away_team": "PSS Sleman",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Marc Etogou Orland 2'",
+              "Marc Etogou Orland 7'",
+              "Ronald Fagundez 17'",
+              "Abanda Herman 27'",
+              "Marc Etogou Orland 70'",
+              "Marc Etogou Orland 87'"
+            ],
+            "PSS Sleman": [
+              "Seto Nurdiyantoro 43'",
+              "Ndolar Blaise 85'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-09-23",
+          "stage": "regular_season",
+          "home_team": "Persijatim Solo FC",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "scorers": {
+            "Persijatim Solo FC": [
+              "Greg Nwokollo 9'"
+            ],
+            "PSM Makassar": [
+              "Marc Orland 72'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-09-26",
+          "stage": "regular_season",
+          "home_team": "Persik Kediri",
+          "home_score": 1,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "scorers": {
+            "Persik Kediri": [
+              "Alejandro Bernal 35'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-09-29",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Persebaya Surabaya",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Njoh Christian 12'",
+              "Njoh Christian 33'",
+              "Marc Etogou Orland 48'"
+            ],
+            "Persebaya Surabaya": [
+              "Gendut Doni 90'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004",
+            "detik_2004_psm_persebaya"
+          ]
+        },
+        {
+          "date": "2004-10-03",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 0,
+          "away_team": "Persela Lamongan",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Charis Yulianto",
+              "Marc Orland",
+              "M. Irsyad"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-10-06",
+          "stage": "regular_season",
+          "home_team": "Deltras Sidoarjo",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "scorers": {
+            "Deltras Sidoarjo": [
+              "Jimmi Suparno 48'",
+              "Fabio Marcos 88'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-11-21",
+          "stage": "regular_season",
+          "home_team": "Pupuk Kaltim",
+          "home_score": 0,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        },
+        {
+          "date": "2004-11-25",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Persija Jakarta",
+          "neutral": false,
+          "scorers": {
+            "PSM Makassar": [
+              "Ronald Fagundez 34'"
+            ],
+            "Persija Jakarta": [
+              "Budi Sudarsono 5'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2004"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "Still missing roughly 17 of 34 league results.",
+        "Some recovered snippets have scores and scorers but no safe date; those rows use date=null."
+      ],
+      "source_ids": [
+        "arsip_2004",
+        "detik_2004_psm_persebaya"
+      ]
+    },
+    {
+      "season": "2005",
+      "competition": "Liga Indonesia Premier Division / Liga Djarum Indonesia 2005",
+      "coverage": "final_table_plus_8_besar_complete_for_psm; regular_season_match_list_sparse",
+      "format_note": "28 teams split into West and East regions; top four from each region advanced to 8 besar.",
+      "psm_regular_season_table": {
+        "region": "East",
+        "rank": 2,
+        "played": 26,
+        "won": 14,
+        "drawn": 3,
+        "lost": 9,
+        "goals_for": 42,
+        "goals_against": 29,
+        "goal_difference": 13,
+        "points": 45,
+        "qualified_for_8_besar": true
+      },
+      "psm_8_besar_table": {
+        "group": "West/Barat",
+        "rank": 3,
+        "played": 3,
+        "won": 0,
+        "drawn": 2,
+        "lost": 1,
+        "goals_for": 3,
+        "goals_against": 5,
+        "goal_difference": -2,
+        "points": 2
+      },
+      "known_matches_count": 5,
+      "known_matches": [
+        {
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 0,
+          "away_team": "Persebaya Surabaya",
+          "neutral": false,
+          "notes": "Regular-season H2H score recovered from a later head-to-head article; date and venue not recovered.",
+          "confidence": "low",
+          "source_ids": [
+            "keidenesia_h2h_persebaya_psm"
+          ]
+        },
+        {
+          "stage": "regular_season",
+          "home_team": "Persebaya Surabaya",
+          "home_score": 2,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "notes": "Regular-season H2H score recovered from a later head-to-head article; date and venue not recovered.",
+          "confidence": "low",
+          "source_ids": [
+            "keidenesia_h2h_persebaya_psm"
+          ]
+        },
+        {
+          "date": "2005-09-16",
+          "stage": "8_besar_group",
+          "home_team": "PSM Makassar",
+          "home_score": 2,
+          "away_score": 2,
+          "away_team": "Persebaya Surabaya",
+          "venue": "Gelora Bung Karno, Jakarta",
+          "neutral": true,
+          "scorers": {
+            "PSM Makassar": [
+              "Osvaldo Moreno 3'",
+              "Junior Lima 32'"
+            ],
+            "Persebaya Surabaya": [
+              "Michel Adolfo 10'",
+              "Leonardo 47'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2005",
+            "detik_2005_psm_persebaya"
+          ]
+        },
+        {
+          "date": "2005-09-18",
+          "stage": "8_besar_group",
+          "home_team": "Persija Jakarta",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "venue": "Gelora Bung Karno, Jakarta",
+          "neutral": true,
+          "scorers": {
+            "Persija Jakarta": [
+              "Agus Indra 50'"
+            ],
+            "PSM Makassar": [
+              "Ebanda Herman 66'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2005"
+          ]
+        },
+        {
+          "date": "2005-09-21",
+          "stage": "8_besar_group",
+          "home_team": "PSM Makassar",
+          "home_score": 0,
+          "away_score": 2,
+          "away_team": "PSIS Semarang",
+          "venue": "Gelora Bung Karno, Jakarta",
+          "neutral": true,
+          "scorers": {
+            "PSIS Semarang": [
+              "M. Ridwan 9'",
+              "Emanuel de Porras 70'"
+            ]
+          },
+          "confidence": "high",
+          "source_ids": [
+            "arsip_2005"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "Regular-season table is solid, but match-by-match regular season remains mostly missing.",
+        "8 besar PSM is complete: 3 matches recovered."
+      ],
+      "source_ids": [
+        "arsip_2005",
+        "detik_2005_psm_persebaya",
+        "keidenesia_h2h_persebaya_psm"
+      ]
+    },
+    {
+      "season": "2007/08",
+      "competition": "Liga Indonesia Premier Division 2007/08",
+      "coverage": "scope_clarification_only",
+      "important_note": "This was not ISL. The first Indonesia Super League season was 2008/09. 2007/08 was the final top-tier Premier Division season before ISL replaced it.",
+      "psm_summary": {
+        "region": "East",
+        "rank": 5,
+        "played": 34,
+        "won": 17,
+        "drawn": 6,
+        "lost": 11,
+        "goals_for": 43,
+        "goals_against": 33,
+        "goal_difference": 10,
+        "points": 57,
+        "qualified_for_2008_isl": true
+      },
+      "known_matches": [],
+      "data_gaps": [
+        "Use the earlier full Ligina file for 2007 Premier Division match list; this focus file treats 'ISL 2007-2008' as a date/competition correction."
+      ],
+      "source_ids": [
+        "rsssf_wiki_isl_2008_09"
+      ]
+    },
+    {
+      "season": "2008/09",
+      "competition": "Indonesia Super League 2008/09",
+      "coverage": "final_table_plus_sparse_match_results",
+      "important_note": "Interpreted as the user's 'ISL 2007-2008' request, because ISL began with the 2008/09 season.",
+      "season_dates": {
+        "start": "2008-07-12",
+        "end": "2009-06-10"
+      },
+      "psm_final_table": {
+        "rank": 8,
+        "played": 34,
+        "won": 13,
+        "drawn": 12,
+        "lost": 9,
+        "goals_for": 42,
+        "goals_against": 44,
+        "goal_difference": -2,
+        "points": 51
+      },
+      "known_matches_count": 5,
+      "expected_matches_from_table": 34,
+      "known_matches": [
+        {
+          "date": "2008-08-10",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "Persipura Jayapura",
+          "neutral": false,
+          "notes": "Recovered from ogol/zerozero match snippet.",
+          "confidence": "medium",
+          "source_ids": [
+            "ogol_isl_2008_09"
+          ]
+        },
+        {
+          "date": "2008-09-06",
+          "stage": "regular_season",
+          "home_team": "Persik Kediri",
+          "home_score": 1,
+          "away_score": 1,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "notes": "Recovered from worldfootball.net schedule snippet.",
+          "confidence": "medium",
+          "source_ids": [
+            "worldfootball_isl_2008_09"
+          ]
+        },
+        {
+          "date": "2009-05-07",
+          "stage": "regular_season",
+          "home_team": "Persipura Jayapura",
+          "home_score": 5,
+          "away_score": 0,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "notes": "Also appears in notable records because Alberto Goncalves scored a hat-trick.",
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_wiki_isl_2008_09"
+          ]
+        },
+        {
+          "date": "2009-05-25",
+          "stage": "regular_season",
+          "home_team": "PSM Makassar",
+          "home_score": 3,
+          "away_score": 1,
+          "away_team": "Persiba Balikpapan",
+          "neutral": false,
+          "notes": "Recovered from worldfootball.net schedule snippet.",
+          "confidence": "medium",
+          "source_ids": [
+            "worldfootball_isl_2008_09"
+          ]
+        },
+        {
+          "date": "2009-06-10",
+          "stage": "regular_season",
+          "home_team": "Deltras Sidoarjo",
+          "home_score": 5,
+          "away_score": 3,
+          "away_team": "PSM Makassar",
+          "neutral": false,
+          "notes": "Notable high-scoring match; Syamsul Chaeruddin recorded a hat-trick for PSM. Some secondary schedule snippets conflict, so this row follows the ISL summary/records source.",
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_wiki_isl_2008_09"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "Only 5 of 34 ISL match results are recovered in this pass.",
+        "A full ISL 2008/09 PSM match list still needs a dedicated schedule source or manual reconstruction from archived matchweeks."
+      ],
+      "source_ids": [
+        "rsssf_wiki_isl_2008_09",
+        "worldfootball_isl_2008_09",
+        "ogol_isl_2008_09"
+      ]
+    }
+  ]
+}
