@@ -1,0 +1,4764 @@
+{
+  "dataset_id": "psm_perserikatan_1930s_1993_94_best_effort",
+  "title": "PSM/Makassar-era Perserikatan match dataset, 1930s-1993/94",
+  "generated_at": "2026-05-29",
+  "language": "id",
+  "scope": {
+    "club_focus": "PSM Makassar / PSM Ujung Pandang / Makassar football association era",
+    "competition_focus": "PSSI amateur championship / Perserikatan era before Liga Indonesia merger",
+    "time_range": "1930s to 1993/94",
+    "end_reason": "Perserikatan ended/merged with Galatama into Liga Indonesia in 1994/95",
+    "important_limit": "Pre-1951 PSSI league data was Java-centered; no verified PSM/Makassar match-by-match entries were found for the 1930s-1950 period in the sources used."
+  },
+  "team_aliases": [
+    "MVB / Makassarsche Voetbalbond",
+    "PSM Makassar",
+    "PSM Ujung Pandang",
+    "PSM Ujungpandang",
+    "PSM Ujung Pandang/Makassar"
+  ],
+  "data_model": {
+    "coverage_values": {
+      "context_only": "no verified PSM match rows; contextual history only",
+      "summary_only": "season position/standing known, but PSM match rows not found or not complete",
+      "partial": "some known PSM matches; not guaranteed complete",
+      "available_results": "all PSM results visible in the cited source section have been entered",
+      "near_complete": "season likely close to complete, but source discrepancies or gaps remain"
+    },
+    "result_for_psm_values": [
+      "W",
+      "D",
+      "L",
+      "unknown"
+    ]
+  },
+  "sources": [
+    {
+      "id": "rsssf_indoamchamp",
+      "name": "RSSSF - Indonesia Amateur Era Champions",
+      "url": "https://www.rsssf.org/tablesi/indoamchamp.html",
+      "use": "Perserikatan palmares and available PSM results 1951-1978."
+    },
+    {
+      "id": "rsssf_indo79",
+      "name": "RSSSF - Indonesia 1978/79",
+      "url": "https://www.rsssf.org/tablesi/indo79.html",
+      "use": "1978/79 Kejuaraan Nasional Utama PSSI."
+    },
+    {
+      "id": "novan_1978_79",
+      "name": "NovanMediaResearch - Kejurnas Utama PSSI 1978-1979",
+      "url": "https://novanmediaresearch.wordpress.com/2009/06/15/kejurnas-utama-pssi-1978-1979/",
+      "use": "1978/79 PSM vs Persebaya and final table."
+    },
+    {
+      "id": "arsip_1980",
+      "name": "Arsip Sepak Bola Indonesia - Divisi Utama PSSI 1980",
+      "url": "https://www.arsipsepakbolaindonesia.com/1980/01/perserikatan-1980.html",
+      "use": "1980 final round match list and table."
+    },
+    {
+      "id": "arsip_1983",
+      "name": "Arsip Sepak Bola Indonesia - Divisi Utama PSSI 1983",
+      "url": "https://www.arsipsepakbolaindonesia.com/1983/01/perserikatan-1983.html",
+      "use": "1983 regional/final-round PSM matches."
+    },
+    {
+      "id": "arsip_1985",
+      "name": "Arsip Sepak Bola Indonesia - Divisi Utama PSSI 1985",
+      "url": "https://www.arsipsepakbolaindonesia.com/1985/01/perserikatan-1985.html",
+      "use": "1985 regional and six-team final round PSM matches."
+    },
+    {
+      "id": "rsssf_1986",
+      "name": "RSSSF - Indonesia 1986",
+      "url": "https://www.rsssf.org/tablesi/indo86.html",
+      "use": "1986 Perserikatan PSM match list and standings."
+    },
+    {
+      "id": "rsssf_1986_87",
+      "name": "RSSSF - Indonesia 1986/87",
+      "url": "https://www.rsssf.org/tablesi/indo87.html",
+      "use": "1986/87 Perserikatan PSM match list and relegation playoff."
+    },
+    {
+      "id": "rsssf_1987_88",
+      "name": "RSSSF - Indonesia 1987/88",
+      "url": "https://www.rsssf.org/tablesi/indo88.html",
+      "use": "1987/88 Perserikatan PSM match list."
+    },
+    {
+      "id": "rsssf_1989_90",
+      "name": "RSSSF - Indonesia 1989/90",
+      "url": "https://www.rsssf.org/tablesi/indo90.html",
+      "use": "1989/90 Perserikatan PSM match list and knockout stage."
+    },
+    {
+      "id": "rsssf_1991_92",
+      "name": "RSSSF - Indonesia 1991/92",
+      "url": "https://www.rsssf.org/tablesi/indo92.html",
+      "use": "1991/92 Perserikatan championship season match list."
+    },
+    {
+      "id": "arsip_1993_94",
+      "name": "Arsip Sepak Bola Indonesia - Perserikatan 1993-1994",
+      "url": "https://www.arsipsepakbolaindonesia.com/1993/01/perserikatan-1993-1994.html",
+      "use": "1993/94 group and knockout stage matches."
+    },
+    {
+      "id": "novan_1993_94",
+      "name": "NovanMediaResearch - Perserikatan 1993-1994",
+      "url": "https://novanmediaresearch.wordpress.com/2009/06/26/perserikatan-1993-1994/",
+      "use": "1993/94 semifinal and final score cross-check."
+    }
+  ],
+  "honours_perserikatan_1951_1994": {
+    "titles": [
+      {
+        "season": "1955-57",
+        "final_or_decider": "PSM champion; final-stage league",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1957-59",
+        "final_or_decider": "PSM champion; final-stage league",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1964/65",
+        "final_or_decider": "PSM 3-2 Persebaya",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1965/66",
+        "final_or_decider": "PSM 2-0 Persib",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1991/92",
+        "final_or_decider": "PSM 2-1 PSMS Medan after extra time",
+        "source_ids": [
+          "rsssf_1991_92"
+        ]
+      }
+    ],
+    "runners_up": [
+      {
+        "season": "1951",
+        "champion": "Persibaya Surabaya",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1959-61",
+        "champion": "Persib Bandung",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1962-64",
+        "champion": "Persija Jakarta",
+        "source_ids": [
+          "rsssf_indoamchamp"
+        ]
+      },
+      {
+        "season": "1993/94",
+        "champion": "Persib Bandung",
+        "source_ids": [
+          "arsip_1993_94",
+          "novan_1993_94"
+        ]
+      }
+    ]
+  },
+  "seasons": [
+    {
+      "season": "1930s-1950",
+      "competition": "PSSI inlandsche stedenwedstrijden / colonial-to-early independence context",
+      "team_name_used": "MVB/Makassar football association; PSM identity not matched to verified match data",
+      "coverage": "context_only",
+      "summary": {
+        "status": "No verified PSM/Makassar match-by-match rows found in the sources used.",
+        "historical_note": "Sources indicate the pre-1951 PSSI competition was Java-centered/restricted, so PSM-era match rows are not included here."
+      },
+      "known_matches": [],
+      "data_gaps": [
+        "Need local Makassar newspaper archive, PSSI annual reports, or colonial-era football bond records for MVB/PSM match-by-match data.",
+        "Do not treat absence of rows as proof PSM/Makassar did not play football; it only means no verified national Perserikatan rows were found in the scraped sources."
+      ],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 0
+      }
+    },
+    {
+      "season": "1951",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "runner_up",
+        "standing": {
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 3,
+          "goals_against": 4,
+          "points": 3
+        },
+        "champion": "Persibaya Surabaya"
+      },
+      "known_matches": [
+        {
+          "date": "1951-11-17",
+          "date_precision": "day",
+          "stage": "Final tournament",
+          "home": "Persija Jakarta",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 0,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1951-11-18",
+          "date_precision": "day",
+          "stage": "Final tournament",
+          "home": "Persibaya Surabaya",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1951-11-24",
+          "date_precision": "day",
+          "stage": "Final tournament",
+          "home": "PSIM Yogyakarta",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 3,
+        "known_wdl_for_psm": {
+          "W": 1,
+          "D": 1,
+          "L": 1,
+          "unknown": 0
+        },
+        "known_goals_for": 3,
+        "known_goals_against": 4
+      }
+    },
+    {
+      "season": "1953/54",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "5th in final stage",
+        "standing": {
+          "played": 5,
+          "won": 1,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 10,
+          "goals_against": 11,
+          "points": 3
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1954-12-11",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persibaya Surabaya",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1954-12-12",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persema Malang",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 2
+          },
+          "result_for_psm": "D",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1954-12-17",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persis Solo",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 4
+          },
+          "result_for_psm": "W",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1954-12-19",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSMS Medan",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1954-12-22",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persija Jakarta",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 3,
+            "away": 2
+          },
+          "result_for_psm": "L",
+          "venue": "Surabaya",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 5,
+        "known_wdl_for_psm": {
+          "W": 2,
+          "D": 1,
+          "L": 2,
+          "unknown": 0
+        },
+        "known_goals_for": 11,
+        "known_goals_against": 10
+      }
+    },
+    {
+      "season": "1955-57",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "champion",
+        "final_stage_standing": {
+          "played": 6,
+          "won": 5,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 23,
+          "goals_against": 7,
+          "points": 11
+        },
+        "top_scorer_note": "Andi Ramang recorded as top scorer with 14 goals in the final-stage source."
+      },
+      "known_matches": [
+        {
+          "date": "1957-02-09",
+          "date_precision": "day",
+          "stage": "Second stage / Eastern Indonesia qualifier",
+          "home": "Persebal Bali",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 0,
+            "away": 3
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-02-10",
+          "date_precision": "day",
+          "stage": "Second stage / Eastern Indonesia qualifier",
+          "home": "PSM Makassar",
+          "away": "Persema Malang",
+          "score": {
+            "home": 8,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-06-30",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persema Malang",
+          "score": {
+            "home": 10,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-07-02",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persibaya Surabaya",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-07-13",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "PSP Padang",
+          "score": {
+            "home": 6,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-07-14",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persija Jakarta",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 3
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-07-20",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSMS Medan",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1957-07-27",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 8,
+        "known_wdl_for_psm": {
+          "W": 7,
+          "D": 1,
+          "L": 0,
+          "unknown": 0
+        },
+        "known_goals_for": 34,
+        "known_goals_against": 7
+      }
+    },
+    {
+      "season": "1957-59",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "champion",
+        "final_stage_standing": {
+          "played": 6,
+          "won": 6,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 25,
+          "goals_against": 4,
+          "points": 12
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1959-07-30",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 6,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1959-08-02",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSIS Semarang",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 4
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1959-08-21",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1959-08-23",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "PSP Padang",
+          "score": {
+            "home": 4,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1959-09-04",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persija Jakarta",
+          "score": {
+            "home": 6,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1959-09-06",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 6,
+        "known_wdl_for_psm": {
+          "W": 6,
+          "D": 0,
+          "L": 0,
+          "unknown": 0
+        },
+        "known_goals_for": 25,
+        "known_goals_against": 4
+      }
+    },
+    {
+      "season": "1959-61",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "runner_up",
+        "champion": "Persib Bandung",
+        "final_stage_standing": {
+          "played": 6,
+          "won": 4,
+          "drawn": 2,
+          "lost": 0,
+          "goals_for": 18,
+          "goals_against": 11,
+          "points": 10
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1961-06-02",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persema Malang",
+          "score": {
+            "home": 4,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1961-06-04",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persib Bandung",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": "Source notes match abandoned at 1-1 in the 85th minute after PSM walked off; result apparently stood.",
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1961-06-17",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 3,
+            "away": 3
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1961-06-18",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persija Jakarta",
+          "score": {
+            "home": 5,
+            "away": 3
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1961-06-25",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1961-06-30",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 3,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 6,
+        "known_wdl_for_psm": {
+          "W": 4,
+          "D": 2,
+          "L": 0,
+          "unknown": 0
+        },
+        "known_goals_for": 18,
+        "known_goals_against": 11
+      }
+    },
+    {
+      "season": "1962-64",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "runner_up",
+        "champion": "Persija Jakarta",
+        "final_stage_standing": {
+          "played": 8,
+          "won": 6,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 22,
+          "goals_against": 4,
+          "points": 13
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1964-07-05",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSB Bogor",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 0,
+            "away": 5
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-07-09",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persijem Jember",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 5
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-07-10",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-07-16",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 1,
+            "away": 2
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-07-19",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSA Ambon",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 0,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-07-25",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "Persija Jakarta",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-08-04",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSP Padang",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 0,
+            "away": 6
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1964-08-09",
+          "date_precision": "day",
+          "stage": "Final stage",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 8,
+        "known_wdl_for_psm": {
+          "W": 6,
+          "D": 1,
+          "L": 1,
+          "unknown": 0
+        },
+        "known_goals_for": 22,
+        "known_goals_against": 4
+      }
+    },
+    {
+      "season": "1964/65",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "champion",
+        "final": "PSM Makassar 3-2 Persebaya Surabaya"
+      },
+      "known_matches": [
+        {
+          "date": "1965-08-11",
+          "date_precision": "day",
+          "stage": "Semifinal first leg",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1965-08-12",
+          "date_precision": "day",
+          "stage": "Semifinal second leg",
+          "home": "Persib Bandung",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 2
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1965-08-15",
+          "date_precision": "day",
+          "stage": "Final",
+          "home": "PSM Makassar",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 3,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 3,
+        "known_wdl_for_psm": {
+          "W": 2,
+          "D": 1,
+          "L": 0,
+          "unknown": 0
+        },
+        "known_goals_for": 8,
+        "known_goals_against": 5
+      }
+    },
+    {
+      "season": "1965/66",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "champion",
+        "final": "PSM Makassar 2-0 Persib Bandung"
+      },
+      "known_matches": [
+        {
+          "date": "1966-09-11",
+          "date_precision": "day",
+          "stage": "Semifinal first leg",
+          "home": "PSM Makassar",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1966-09-12",
+          "date_precision": "day",
+          "stage": "Semifinal second leg",
+          "home": "PSMS Medan",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 3
+          },
+          "result_for_psm": "L",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1966-09-17",
+          "date_precision": "day",
+          "stage": "Final",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 3,
+        "known_wdl_for_psm": {
+          "W": 2,
+          "D": 0,
+          "L": 1,
+          "unknown": 0
+        },
+        "known_goals_for": 6,
+        "known_goals_against": 4
+      }
+    },
+    {
+      "season": "1966/67",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "4th",
+        "champion": "PSMS Medan",
+        "note": "PSM lost semifinal tie to Persib and lost third-place match to Persebaya."
+      },
+      "known_matches": [
+        {
+          "date": "1967-09-06",
+          "date_precision": "day",
+          "stage": "Semifinal first leg",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1967-09-07",
+          "date_precision": "day",
+          "stage": "Semifinal second leg",
+          "home": "Persib Bandung",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1967-09-10",
+          "date_precision": "day",
+          "stage": "Third-place match",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 3,
+        "known_wdl_for_psm": {
+          "W": 0,
+          "D": 1,
+          "L": 2,
+          "unknown": 0
+        },
+        "known_goals_for": 1,
+        "known_goals_against": 3
+      }
+    },
+    {
+      "season": "1968/69",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "context_only",
+      "summary": {
+        "status": "not held"
+      },
+      "known_matches": [],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 0
+      }
+    },
+    {
+      "season": "1969-71",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "summary_only",
+      "summary": {
+        "final_position": "3rd or 4th; source states Persija and PSM finished 3rd and 4th",
+        "champion": "PSMS Medan",
+        "runner_up": "Persebaya Surabaya"
+      },
+      "known_matches": [],
+      "data_gaps": [
+        "No PSM match-by-match rows entered from the available source section."
+      ],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 0
+      }
+    },
+    {
+      "season": "1971-73",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "4th",
+        "standing": {
+          "played": 7,
+          "won": 3,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 19,
+          "goals_against": 18,
+          "points": 7
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1973-11-26",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1973-11-28",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "Persipura Jayapura",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 4,
+            "away": 4
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1973-12-01",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "Persija Jakarta",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 5,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1973-12-03",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "PSMS Medan",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1973-12-05",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "PSM Makassar",
+          "away": "PSBI Blitar",
+          "score": {
+            "home": 5,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1973-12-07",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "PSM Makassar",
+          "away": "PSL Langkat",
+          "score": {
+            "home": 5,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1973-12-10",
+          "date_precision": "day",
+          "stage": "Final round",
+          "home": "PSM Makassar",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 7,
+        "known_wdl_for_psm": {
+          "W": 4,
+          "D": 1,
+          "L": 2,
+          "unknown": 0
+        },
+        "known_goals_for": 20,
+        "known_goals_against": 17
+      }
+    },
+    {
+      "season": "1973-75",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "4th in Pool D",
+        "pool_standing": {
+          "played": 4,
+          "won": 1,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 3,
+          "goals_against": 5,
+          "points": 2
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1975-10-19",
+          "date_precision": "day",
+          "stage": "Pool D",
+          "home": "Persib Bandung",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1975-10-21",
+          "date_precision": "day",
+          "stage": "Pool D",
+          "home": "Persema Malang",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1975-10-25",
+          "date_precision": "day",
+          "stage": "Pool D",
+          "home": "PSM Makassar",
+          "away": "Gasko Kolaka",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1975-10-27",
+          "date_precision": "day",
+          "stage": "Pool D",
+          "home": "PS Bangka",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 4,
+        "known_wdl_for_psm": {
+          "W": 1,
+          "D": 0,
+          "L": 3,
+          "unknown": 0
+        },
+        "known_goals_for": 3,
+        "known_goals_against": 5
+      }
+    },
+    {
+      "season": "1975-78",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "4th",
+        "pool_b_standing": {
+          "played": 4,
+          "won": 3,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 16,
+          "goals_against": 4,
+          "points": 6
+        },
+        "quarterfinal_pool_f_standing": {
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 10,
+          "goals_against": 3,
+          "points": 4
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1978-01-05",
+          "date_precision": "day",
+          "stage": "Pool B",
+          "home": "PSM Makassar",
+          "away": "Persisum Sumbawa",
+          "score": {
+            "home": 7,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-09",
+          "date_precision": "day",
+          "stage": "Pool B",
+          "home": "PSM Makassar",
+          "away": "Perseban Banjarmasin",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-12",
+          "date_precision": "day",
+          "stage": "Pool B",
+          "home": "Persib Bandung",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-14",
+          "date_precision": "day",
+          "stage": "Pool B",
+          "home": "PSM Makassar",
+          "away": "PSKB Bukittinggi",
+          "score": {
+            "home": 6,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-17",
+          "date_precision": "day",
+          "stage": "Quarterfinal Pool F",
+          "home": "PSM Makassar",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-19",
+          "date_precision": "day",
+          "stage": "Quarterfinal Pool F",
+          "home": "Persiraja Banda Aceh",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-21",
+          "date_precision": "day",
+          "stage": "Quarterfinal Pool F",
+          "home": "PSM Makassar",
+          "away": "PSBI Blitar",
+          "score": {
+            "home": 8,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-26",
+          "date_precision": "day",
+          "stage": "Semifinal",
+          "home": "PSM Makassar",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        },
+        {
+          "date": "1978-01-28",
+          "date_precision": "day",
+          "stage": "Third-place match",
+          "home": "PSMS Medan",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": "After extra time; PSMS won 5-4 on penalties.",
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indoamchamp"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indoamchamp"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 9,
+        "known_wdl_for_psm": {
+          "W": 5,
+          "D": 1,
+          "L": 3,
+          "unknown": 0
+        },
+        "known_goals_for": 27,
+        "known_goals_against": 9
+      }
+    },
+    {
+      "season": "1978/79",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "partial",
+      "summary": {
+        "final_position": "5th in final round",
+        "final_round_standing": {
+          "played": 8,
+          "won": 2,
+          "drawn": 2,
+          "lost": 4,
+          "goals_for": 10,
+          "goals_against": 18,
+          "points": 6
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1978-11-15",
+          "date_precision": "day",
+          "stage": "Final round, round 1",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Makassar",
+          "score": {
+            "home": 4,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Utama Senayan, Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_indo79"
+          ]
+        },
+        {
+          "date": "1979-01-12",
+          "date_precision": "day",
+          "stage": "Final round, round 2",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Utama Gelora Bung Karno, Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Dullah Rahim/Rachim 9/10",
+              "Anwar Ramang 56/57"
+            ],
+            "Persebaya Surabaya": [
+              "Abdul Kadir 70"
+            ]
+          },
+          "notes": "Minute spellings differ between sources; both retained as raw note.",
+          "confidence": "high",
+          "source_ids": [
+            "novan_1978_79"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "Final round had 8 PSM matches; only the rows clearly verified from search/opened sources are included here."
+      ],
+      "notes": [],
+      "source_ids": [
+        "rsssf_indo79",
+        "novan_1978_79"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 2,
+        "known_wdl_for_psm": {
+          "W": 1,
+          "D": 0,
+          "L": 1,
+          "unknown": 0
+        },
+        "known_goals_for": 3,
+        "known_goals_against": 5
+      }
+    },
+    {
+      "season": "1980",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "6th in six-team final round",
+        "final_round_standing": {
+          "played": 5,
+          "won": 1,
+          "drawn": 0,
+          "lost": 4,
+          "goals_for": 4,
+          "goals_against": 9,
+          "points": 2
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1980-08-22",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Gaffar Hamzah 23' pen",
+              "Syamsudin Umar 30'"
+            ],
+            "Persebaya Surabaya": [
+              "Agus Wibowo 31'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1980"
+          ]
+        },
+        {
+          "date": "1980-08-24",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "PSMS Medan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1980"
+          ]
+        },
+        {
+          "date": "1980-08-25",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persiraja Banda Aceh",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 2
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Persiraja Banda Aceh": [
+              "Zulkifli 3'",
+              "Zulkifli 54'",
+              "Bachrum 74'"
+            ],
+            "PSM Ujung Pandang": [
+              "Gaffar Hamzah 2'",
+              "Jamal 82'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1980"
+          ]
+        },
+        {
+          "date": "1980-08-27",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Persipura Jayapura": [
+              "Leo Kapissa 48'",
+              "Okto Ayomi 62'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1980"
+          ]
+        },
+        {
+          "date": "1980-08-28",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persija Jakarta",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Persija Jakarta": [
+              "Jayadi Said 74'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1980"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "arsip_1980"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 5,
+        "known_wdl_for_psm": {
+          "W": 2,
+          "D": 0,
+          "L": 3,
+          "unknown": 0
+        },
+        "known_goals_for": 6,
+        "known_goals_against": 7
+      }
+    },
+    {
+      "season": "1983",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "4th / four-team final stage participant",
+        "east_group_standing": {
+          "played": 8,
+          "won": 5,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 11,
+          "goals_against": 8,
+          "points": 11
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1983-09-21",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "Persema Malang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Tri Dharma, Gresik",
+          "scorers": {
+            "Persema Malang": [
+              "Hartoyo 14'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-09-23",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Tri Dharma, Gresik",
+          "scorers": {
+            "Persipura Jayapura": [
+              "Mettu Duaramuri 52'",
+              "Spiks Polanda 77'"
+            ],
+            "PSM Ujung Pandang": [
+              "Harmin 49'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-09-26",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Tri Dharma, Gresik",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Rustam 75'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-09-28",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": "Stadion Tri Dharma, Gresik",
+          "scorers": {
+            "Persebaya Surabaya": [
+              "Yongky Kastanya 76'"
+            ],
+            "PSM Ujung Pandang": [
+              "Nasarudin 50'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-10-23",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Diponegoro, Semarang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Alinurdin 58'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-10-26",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persipura Jayapura",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Diponegoro, Semarang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Armin 49'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-10-28",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persema Malang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Diponegoro, Semarang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Alimuddin Usman 48'",
+              "Surul Lengu 70'"
+            ],
+            "Persema Malang": [
+              "Harry Ratu 79'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-10-31",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 4,
+            "away": 3
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Diponegoro, Semarang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Irianto Kasim 6'",
+              "Rustam 22' pen",
+              "Surul Lengu 39'",
+              "Armin 87'"
+            ],
+            "Persebaya Surabaya": [
+              "Achmad Tayeb 32'",
+              "Ferrel R. Hattu 67'",
+              "Yongky Kastanya 77'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-11-05",
+          "date_precision": "day",
+          "stage": "Four-team final stage",
+          "home": "PSM Ujung Pandang",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": "Score found in secondary article/search snippet; scorers not entered.",
+          "confidence": "medium",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        },
+        {
+          "date": "1983-11-06",
+          "date_precision": "day",
+          "stage": "Four-team final stage",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": "Score found in secondary article/search snippet; scorers not entered.",
+          "confidence": "medium",
+          "source_ids": [
+            "arsip_1983"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "One four-team final-stage match vs Persib is not entered because a clean score row was not captured in the source snippets used."
+      ],
+      "notes": [],
+      "source_ids": [
+        "arsip_1983"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 10,
+        "known_wdl_for_psm": {
+          "W": 5,
+          "D": 2,
+          "L": 3,
+          "unknown": 0
+        },
+        "known_goals_for": 13,
+        "known_goals_against": 11
+      }
+    },
+    {
+      "season": "1985",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "near_complete",
+      "summary": {
+        "east_group_final_position": "1st",
+        "east_group_standing": {
+          "played": 10,
+          "won": 7,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 20,
+          "goals_against": 8,
+          "points": 15
+        },
+        "six_team_final_position": "3rd",
+        "six_team_final_standing": {
+          "played": 5,
+          "won": 2,
+          "drawn": 2,
+          "lost": 1,
+          "goals_for": 6,
+          "goals_against": 5,
+          "points": 6
+        },
+        "champion": "PSMS Medan"
+      },
+      "known_matches": [
+        {
+          "date": "1985-01-16",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persema Malang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Mattoangin, Ujung Pandang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Surul Lengu 53'",
+              "Hengky Siegers 79'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-01-18",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Mattoangin, Ujung Pandang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Alimudin Usman 54'",
+              "Abdi Tunggal 75'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-01-19",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "PSM Ujung Pandang",
+          "away": "PS Bengkulu",
+          "score": {
+            "home": 2,
+            "away": 2
+          },
+          "result_for_psm": "D",
+          "venue": "Stadion Mattoangin, Ujung Pandang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Hengky Siegers 47'",
+              "Hengky Siegers 52'"
+            ],
+            "PS Bengkulu": [
+              "Irianto Kasim 28' own goal",
+              "Eddy Suryanto 44' pen"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-01-21",
+          "date_precision": "day",
+          "stage": "East group, first round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persipura Jayapura",
+          "score": {
+            "home": 4,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Mattoangin, Ujung Pandang",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Surul Lengu 9'",
+              "Surul Lengu 70'",
+              "Pieter Fernandez 33' pen",
+              "Pieter Fernandez 83'"
+            ],
+            "Persipura Jayapura": [
+              "Panus Korwa 13'",
+              "Panus Korwa 82'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-01-30",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSM Makassar",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Gelora 10 Nopember, Surabaya",
+          "scorers": {
+            "PSM Makassar": [
+              "Hengky Siegers 4'",
+              "Alimudin Usman 13'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-01",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSM Makassar",
+          "away": "Persema Malang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Gelora 10 Nopember, Surabaya",
+          "scorers": {
+            "PSM Makassar": [
+              "Hengky Siegers 88'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-03",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "PSM Ujung Pandang",
+          "away": "PS Bengkulu",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Gelora 10 Nopember, Surabaya",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Alimudin Usman 3'",
+              "Pieter Fernandez 38'",
+              "Abdi Tunggal 44'"
+            ],
+            "PS Bengkulu": [
+              "Wolter Sulu 80'"
+            ]
+          },
+          "notes": "Originally scheduled Feb 2, postponed due to waterlogged pitch.",
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-05",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Gelora 10 Nopember, Surabaya",
+          "scorers": {
+            "Persipura Jayapura": [
+              "Panus Korwa 48'",
+              "Panus Korwa 74' pen",
+              "Octo Ayemi 63'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-06",
+          "date_precision": "day",
+          "stage": "East group, second round",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Gelora 10 Nopember, Surabaya",
+          "scorers": {
+            "Persebaya Surabaya": [
+              "Muslik 40'",
+              "Ahmad Thayib 46'",
+              "Hasan Maghrobi 86'"
+            ],
+            "PSM Ujung Pandang": [
+              "Alimuddin Usman 83'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-15",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "PSM Ujung Pandang",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-16",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Perseman Manokwari",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Perseman Manokwari": [
+              "Adolf Kabo"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-18",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "PSM Ujung Pandang",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Hengky Siegers 2'",
+              "Alimudin Usman 20'"
+            ],
+            "Persib Bandung": [
+              "Ajat Sudrajat 75'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-19",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Persipura Jayapura": [
+              "Mecky Pulanda 89'"
+            ],
+            "PSM Ujung Pandang": [
+              "Pieter Fernandez 23' pen"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        },
+        {
+          "date": "1985-02-21",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 2
+          },
+          "result_for_psm": "D",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Persebaya Surabaya": [
+              "Budi Johanis 63'",
+              "Riono Asnan 76'"
+            ],
+            "PSM Ujung Pandang": [
+              "Mustafa Umarella 52'",
+              "Hengky Siegers 84'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1985"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "The 10 East-group table implies one additional PSM match not captured in the assembled rows; source text around this row should be revisited."
+      ],
+      "notes": [],
+      "source_ids": [
+        "arsip_1985"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 14,
+        "known_wdl_for_psm": {
+          "W": 8,
+          "D": 3,
+          "L": 3,
+          "unknown": 0
+        },
+        "known_goals_for": 23,
+        "known_goals_against": 16
+      }
+    },
+    {
+      "season": "1986",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "east_group_final_position": "2nd",
+        "east_group_standing": {
+          "played": 10,
+          "won": 5,
+          "drawn": 3,
+          "lost": 2,
+          "goals_for": 9,
+          "goals_against": 6,
+          "points": 13
+        },
+        "six_team_final_position": "6th",
+        "six_team_final_standing": {
+          "played": 5,
+          "won": 1,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 4,
+          "goals_against": 9,
+          "points": 3
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1986-01-28",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-01-29",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-01-31",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-02",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Perseman Manokwari",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-04",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-12",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-14",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Perseman Manokwari",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-15",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-18",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-19",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persipura Jayapura",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-25",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persib Bandung",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-02-27",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Perseman Manokwari",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-03-02",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "Persija Jakarta",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-03-05",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 2
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        },
+        {
+          "date": "1986-03-07",
+          "date_precision": "day",
+          "stage": "Six-team final round",
+          "home": "PSM Ujung Pandang",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_1986"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 15,
+        "known_wdl_for_psm": {
+          "W": 6,
+          "D": 4,
+          "L": 5,
+          "unknown": 0
+        },
+        "known_goals_for": 13,
+        "known_goals_against": 15
+      }
+    },
+    {
+      "season": "1986/87",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "east_group_final_position": "5th",
+        "east_group_standing": {
+          "played": 10,
+          "won": 2,
+          "drawn": 5,
+          "lost": 3,
+          "goals_for": 9,
+          "goals_against": 8,
+          "points": 9
+        },
+        "relegation_playoff": {
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goals_for": 8,
+          "goals_against": 3,
+          "points": 4,
+          "outcome": "survived"
+        }
+      },
+      "known_matches": [
+        {
+          "date": "1986-12-13",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-01-04",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-01-08",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 3
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-01-11",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Perseman Manokwari",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-01-15",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persipura Jayapura",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-01-28",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persiba Balikpapan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 3
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-02-01",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Perseman Manokwari",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-02-04",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-02-08",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-02-16",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-03-02",
+          "date_precision": "day",
+          "stage": "Relegation playoff",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiraja Banda Aceh",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-03-04",
+          "date_precision": "day",
+          "stage": "Relegation playoff",
+          "home": "Persiba Balikpapan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 2
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        },
+        {
+          "date": "1987-03-08",
+          "date_precision": "day",
+          "stage": "Relegation playoff",
+          "home": "PSM Ujung Pandang",
+          "away": "PSP Padang",
+          "score": {
+            "home": 5,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1986_87"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_1986_87"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 13,
+        "known_wdl_for_psm": {
+          "W": 3,
+          "D": 7,
+          "L": 3,
+          "unknown": 0
+        },
+        "known_goals_for": 17,
+        "known_goals_against": 11
+      }
+    },
+    {
+      "season": "1987/88",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "partial",
+      "summary": {
+        "final_position": "not qualified for six-team final round",
+        "note": "East group table not fully captured in this scrape."
+      },
+      "known_matches": [
+        {
+          "date": "1987-11-01",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1987-11-08",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1987-11-17",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1987-12-06",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Perseman Manokwari",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1987-12-10",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1988-01-10",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persiba Balikpapan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1988-01-15",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1988-01-20",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": "1988-02-21",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Perseman Manokwari",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        },
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persipura Jayapura",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1987_88"
+          ]
+        }
+      ],
+      "data_gaps": [
+        "Exact date for PSM 2-1 Persipura and final East-group table were not captured."
+      ],
+      "notes": [],
+      "source_ids": [
+        "rsssf_1987_88"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 10,
+        "known_wdl_for_psm": {
+          "W": 5,
+          "D": 0,
+          "L": 5,
+          "unknown": 0
+        },
+        "known_goals_for": 9,
+        "known_goals_against": 13
+      }
+    },
+    {
+      "season": "1989/90",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "east_group_final_position": "2nd",
+        "east_group_standing": {
+          "played": 10,
+          "won": 3,
+          "drawn": 5,
+          "lost": 2,
+          "goals_for": 6,
+          "goals_against": 5,
+          "points": 11
+        },
+        "six_team_group": "Group I runner-up; qualified to semifinal",
+        "final_position": "4th"
+      },
+      "known_matches": [
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group, round 1",
+          "home": "Persipura Jayapura",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group, round 2",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group, round 3",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group, round 4",
+          "home": "PSM Ujung Pandang",
+          "away": "Persegres Gresik",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group, round 5",
+          "home": "Persiba Balikpapan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-01-21",
+          "date_precision": "day",
+          "stage": "East group, round 6",
+          "home": "PSM Ujung Pandang",
+          "away": "Persipura Jayapura",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-01-28",
+          "date_precision": "day",
+          "stage": "East group, round 7",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-02-03",
+          "date_precision": "day",
+          "stage": "East group, round 8",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-02-11",
+          "date_precision": "day",
+          "stage": "East group, round 9",
+          "home": "Persegres Gresik",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-02-24",
+          "date_precision": "day",
+          "stage": "East group, round 10",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-03-04",
+          "date_precision": "day",
+          "stage": "Six-team Group I",
+          "home": "PSM Ujung Pandang",
+          "away": "Persija Jakarta",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-03-05",
+          "date_precision": "day",
+          "stage": "Six-team Group I",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Bahar Muharam 9'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-03-08",
+          "date_precision": "day",
+          "stage": "Semifinal",
+          "home": "Persib Bandung",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        },
+        {
+          "date": "1990-03-10",
+          "date_precision": "day",
+          "stage": "Third-place match",
+          "home": "Persija Jakarta",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 4,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Kaharuddin"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1989_90"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_1989_90"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 14,
+        "known_wdl_for_psm": {
+          "W": 4,
+          "D": 6,
+          "L": 4,
+          "unknown": 0
+        },
+        "known_goals_for": 8,
+        "known_goals_against": 12
+      }
+    },
+    {
+      "season": "1991/92",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "champion",
+        "east_group_final_position": "2nd",
+        "east_group_standing": {
+          "played": 10,
+          "won": 5,
+          "drawn": 3,
+          "lost": 2,
+          "goals_for": 9,
+          "goals_against": 6,
+          "points": 13
+        },
+        "six_team_group": "Group B runner-up; qualified to semifinal",
+        "final": "PSM 2-1 PSMS Medan after extra time"
+      },
+      "known_matches": [
+        {
+          "date": "1991-10-27",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1991-10-31",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persema Malang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1991-11-04",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persegres Gresik",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1991-11-09",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1991-11-14",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Amirullah 41'"
+            ],
+            "Persiba Balikpapan": [
+              "Sulthan 89'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-01-26",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-01-30",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persema Malang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Yusrifar Djafar 34'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-04",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persegres Gresik",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Alimudin Usman 27'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-09",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Arman Dadi 63'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-14",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persiba Balikpapan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": {
+            "Persiba Balikpapan": [
+              "Darus Asman 69'"
+            ],
+            "PSM Ujung Pandang": [
+              "Aji Lestaluhu 21'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-24",
+          "date_precision": "day",
+          "stage": "Six-team Group B",
+          "home": "PSM Ujung Pandang",
+          "away": "Persegres Gresik",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-25",
+          "date_precision": "day",
+          "stage": "Six-team Group B",
+          "home": "PSM Ujung Pandang",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Yusrifar Djafar 20'"
+            ],
+            "PSMS Medan": [
+              "Suharto 40'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-27",
+          "date_precision": "day",
+          "stage": "Semifinal",
+          "home": "PSM Ujung Pandang",
+          "away": "Persib Bandung",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Alimuddin Usman 54' pen",
+              "Kaharudin 79'"
+            ],
+            "Persib Bandung": [
+              "Robby Darwis 65' pen"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        },
+        {
+          "date": "1992-02-29",
+          "date_precision": "day",
+          "stage": "Final",
+          "home": "PSM Ujung Pandang",
+          "away": "PSMS Medan",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Jefridien 11'",
+              "Mustari Ato 91'"
+            ],
+            "PSMS Medan": [
+              "Azwardi Lubis 67'"
+            ]
+          },
+          "notes": "After extra time.",
+          "confidence": "high",
+          "source_ids": [
+            "rsssf_1991_92"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "rsssf_1991_92"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 14,
+        "known_wdl_for_psm": {
+          "W": 7,
+          "D": 5,
+          "L": 2,
+          "unknown": 0
+        },
+        "known_goals_for": 14,
+        "known_goals_against": 9
+      }
+    },
+    {
+      "season": "1993/94",
+      "competition": "Perserikatan / PSSI amateur championship",
+      "team_name_used": "PSM Makassar / PSM Ujung Pandang",
+      "coverage": "available_results",
+      "summary": {
+        "final_position": "runner_up",
+        "champion": "Persib Bandung",
+        "east_group_final_position": "2nd",
+        "east_group_standing": {
+          "played": 14,
+          "won": 6,
+          "drawn": 4,
+          "lost": 4,
+          "goals_for": 16,
+          "goals_against": 12,
+          "points": 16
+        },
+        "final": "Persib Bandung 2-0 PSM Ujung Pandang"
+      },
+      "known_matches": [
+        {
+          "date": "1993-11-13",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 0,
+            "away": 2
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1993-11-17",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persegres Gresik",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1993-11-23",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIM Yogyakarta",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1993-11-28",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persema Malang",
+          "score": {
+            "home": 3,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1993-12-04",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persiba Balikpapan",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 3,
+            "away": 1
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1993-12-09",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIS Semarang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1993-12-13",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIR Rembang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-01-08",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persebaya Surabaya",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-01-12",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persegres Gresik",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-01-16",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSIM Yogyakarta",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 2
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-01-22",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "Persema Malang",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": null,
+          "date_precision": "unknown",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiba Balikpapan",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-02-01",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIS Semarang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-02-05",
+          "date_precision": "day",
+          "stage": "East group",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIR Rembang",
+          "score": {
+            "home": 1,
+            "away": 1
+          },
+          "result_for_psm": "D",
+          "venue": null,
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-04-08",
+          "date_precision": "day",
+          "stage": "Eight-team final round, Group K",
+          "home": "PSM Ujung Pandang",
+          "away": "PSIR Rembang",
+          "score": {
+            "home": 2,
+            "away": 1
+          },
+          "result_for_psm": "W",
+          "venue": "Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Yusrifar Jafar 36'",
+              "Arif Kamaruddin 72'"
+            ],
+            "PSIR Rembang": [
+              "Yance Ruma 85'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-04-10",
+          "date_precision": "day",
+          "stage": "Eight-team final round, Group K",
+          "home": "PSM Ujung Pandang",
+          "away": "Persiraja Banda Aceh",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-04-12",
+          "date_precision": "day",
+          "stage": "Eight-team final round, Group K",
+          "home": "Persib Bandung",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "result_for_psm": "D",
+          "venue": "Jakarta",
+          "scorers": null,
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-04-15",
+          "date_precision": "day",
+          "stage": "Semifinal",
+          "home": "PSM Ujung Pandang",
+          "away": "Persebaya Surabaya",
+          "score": {
+            "home": 1,
+            "away": 0
+          },
+          "result_for_psm": "W",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "PSM Ujung Pandang": [
+              "Ansar Razak 35'"
+            ]
+          },
+          "notes": "Some bracket-style sources display 0-0 plus PSM advancing; NovanMediaResearch and encyclopedic snippets state PSM won 1-0.",
+          "confidence": "high",
+          "source_ids": [
+            "novan_1993_94",
+            "arsip_1993_94"
+          ]
+        },
+        {
+          "date": "1994-04-17",
+          "date_precision": "day",
+          "stage": "Final",
+          "home": "Persib Bandung",
+          "away": "PSM Ujung Pandang",
+          "score": {
+            "home": 2,
+            "away": 0
+          },
+          "result_for_psm": "L",
+          "venue": "Stadion Utama Gelora Senayan, Jakarta",
+          "scorers": {
+            "Persib Bandung": [
+              "Yudi Guntara 26'",
+              "Sutiono Lamso 71'"
+            ]
+          },
+          "notes": null,
+          "confidence": "high",
+          "source_ids": [
+            "novan_1993_94",
+            "arsip_1993_94"
+          ]
+        }
+      ],
+      "data_gaps": [],
+      "notes": [],
+      "source_ids": [
+        "arsip_1993_94",
+        "novan_1993_94"
+      ],
+      "derived_from_known_matches": {
+        "known_match_count": 19,
+        "known_wdl_for_psm": {
+          "W": 8,
+          "D": 6,
+          "L": 5,
+          "unknown": 0
+        },
+        "known_goals_for": 19,
+        "known_goals_against": 15
+      }
+    }
+  ]
+}
