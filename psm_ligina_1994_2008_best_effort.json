@@ -1,0 +1,2782 @@
+{
+    "team": "PSM Makassar / PSM Ujung Pandang",
+    "scope": "Liga Indonesia / Divisi Utama top-flight seasons 1994/95-2007; 2008 marked as transition to Indonesia Super League and not included as Ligina match list",
+    "generated_at": "2026-05-29",
+    "coverage_note": "Best-effort extraction from RSSSF and Arsip Sepak Bola Indonesia. Seasons marked complete_regular_season have match-by-match league data extracted; seasons marked partial still need manual verification from newspaper/club archives or full-page parsing.",
+    "source_urls": [
+        "https://www.rsssf.org/tablesi/indo95.html",
+        "https://www.arsipsepakbolaindonesia.com/1995/01/liga-indonesia-1995-1996.html",
+        "https://www.arsipsepakbolaindonesia.com/1996/01/liga-indonesia-1996-1997.html",
+        "https://www.arsipsepakbolaindonesia.com/1997/01/liga-indonesia-1997-1998.html",
+        "https://www.rsssf.org/tablesi/indo99.html",
+        "https://www.rsssf.org/tablesi/indo00.html",
+        "https://www.arsipsepakbolaindonesia.com/2001/01/liga-indonesia-2001.html",
+        "https://www.rsssf.org/tablesi/indo02.html",
+        "https://www.arsipsepakbolaindonesia.com/2003/01/liga-indonesia-2003.html",
+        "https://www.arsipsepakbolaindonesia.com/2004/01/liga-indonesia-2004.html",
+        "https://www.arsipsepakbolaindonesia.com/2005/01/liga-indonesia-2005.html",
+        "https://www.rsssf.org/tablesi/indo06.html",
+        "https://www.rsssf.org/tablesi/indo07.html"
+    ],
+    "seasons": [
+        {
+            "season": "1994/95",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 10,
+                "played": 32,
+                "won": 11,
+                "drawn": 10,
+                "lost": 11,
+                "goals_for": 31,
+                "goals_against": 32,
+                "points": 43
+            },
+            "coverage": "complete_regular_season",
+            "matches": [
+                {
+                    "date": "1994-11-27",
+                    "stage": "Wilayah Timur",
+                    "home": "Persebaya Surabaya",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1994-11-30",
+                    "stage": "Wilayah Timur",
+                    "home": "Assyabaab SGS",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1994-12-04",
+                    "stage": "Wilayah Timur",
+                    "home": "Persegres Gresik",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1994-12-07",
+                    "stage": "Wilayah Timur",
+                    "home": "Petrokimia Putra",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1994-12-14",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persipura Jayapura",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1994-12-18",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 0,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-01-04",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persiba Balikpapan",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-01-07",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Barito Putra",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-01-14",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Putra Samarinda",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-03-12",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIM Yogyakarta",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "venue_note": "Jakarta Selatan",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-03-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIR Rembang",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-03-18",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIS Semarang",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-04-02",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 0,
+                    "away": "Arema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-04-05",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-04-12",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Mitra Surabaya",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-04-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Gelora Dewata",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-04-26",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "PSIM Yogyakarta",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-04-30",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "PSIS Semarang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-05-03",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "PSIR Rembang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-05-11",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-05-14",
+                    "stage": "Wilayah Timur",
+                    "home": "Putra Samarinda",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-05-17",
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-05-22",
+                    "stage": "Wilayah Timur",
+                    "home": "Barito Putra",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "note": "continued after abandoned match on 1995-05-21",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-06-07",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 0,
+                    "away": "Assyabaab SGS",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-06-11",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-06-14",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Petrokimia Putra",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-06-18",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Persegres Gresik",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-06-25",
+                    "stage": "Wilayah Timur",
+                    "home": "Arema Malang",
+                    "home_score": 5,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-06-29",
+                    "stage": "Wilayah Timur",
+                    "home": "Persema Malang",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-07-02",
+                    "stage": "Wilayah Timur",
+                    "home": "Mitra Surabaya",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-07-05",
+                    "stage": "Wilayah Timur",
+                    "home": "Gelora Dewata",
+                    "home_score": 5,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1995-07-15",
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                }
+            ],
+            "data_gaps": []
+        },
+        {
+            "season": "1995/96",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 1,
+                "played": 30,
+                "won": 17,
+                "drawn": 6,
+                "lost": 7,
+                "goals_for": 58,
+                "goals_against": 26,
+                "points": 57,
+                "final_position": "runner-up"
+            },
+            "coverage": "partial_regular_matrix_plus_final_tournament",
+            "matches": [
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Arema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 6,
+                    "away": "Assyabaab SGS",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Barito Putra",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Gelora Dewata",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 5,
+                    "away": "Mitra Surabaya",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Persegres Gresik",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persiba Balikpapan",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Persipura Jayapura",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persma Manado",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 5,
+                    "away": "Petrokimia Putra",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "PSIS Semarang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Putra Samarinda",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persegres Gresik",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persema Malang",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 3,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persma Manado",
+                    "home_score": 3,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Petrokimia Putra",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-09-24",
+                    "stage": "Final Twelve Group C",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Mataram Indocement",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                },
+                {
+                    "date": "1996-09-26",
+                    "stage": "Final Twelve Group C",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persipura Jayapura",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                },
+                {
+                    "date": "1996-09-28",
+                    "stage": "Final Twelve Group C",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persib Bandung",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                },
+                {
+                    "date": "1996-10-04",
+                    "stage": "Semifinal",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Persipura Jayapura",
+                    "away_score": 3,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-10-06",
+                    "stage": "Final",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 0,
+                    "away": "Bandung Raya",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                }
+            ],
+            "data_gaps": [
+                "8 away regular-season matches still missing exact score/date from extracted text; season table confirms 30 regular matches total."
+            ]
+        },
+        {
+            "season": "1996/97",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 1,
+                "played": 20,
+                "won": 14,
+                "drawn": 1,
+                "lost": 5,
+                "goals_for": 48,
+                "goals_against": 21,
+                "points": 43,
+                "final_position": "semifinalist"
+            },
+            "coverage": "complete_regular_plus_final_twelve",
+            "matches": [
+                {
+                    "date": "1996-11-17",
+                    "stage": "Wilayah Timur",
+                    "home": "Gelora Dewata",
+                    "home_score": 5,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-11-20",
+                    "stage": "Wilayah Timur",
+                    "home": "Assyabaab SGS",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-11-27",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persiba Balikpapan",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-12-01",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persma Manado",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-12-11",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Putra Samarinda",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1996-12-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-02-16",
+                    "stage": "Wilayah Timur",
+                    "home": "Petrokimia Putra",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-02-19",
+                    "stage": "Wilayah Timur",
+                    "home": "Persedikab Kediri",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-02-22",
+                    "stage": "Wilayah Timur",
+                    "home": "Persema Malang",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-03-01",
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-03-19",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 5,
+                    "away": "Assyabaab SGS",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-03-26",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-03-30",
+                    "stage": "Wilayah Timur",
+                    "home": "Persma Manado",
+                    "home_score": 3,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-04-05",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Persipura Jayapura",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-06-08",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 8,
+                    "away": "Persedikab Kediri",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-06-11",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 5,
+                    "away": "Persema Malang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-06-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Petrokimia Putra",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-07-02",
+                    "stage": "Wilayah Timur",
+                    "home": "Putra Samarinda",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 3,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 5,
+                    "away": "Gelora Dewata",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1997-07-13",
+                    "stage": "Final Twelve Group B",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Persipura Jayapura",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                },
+                {
+                    "date": "1997-07-15",
+                    "stage": "Final Twelve Group B",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Arema Malang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                },
+                {
+                    "date": "1997-07-17",
+                    "stage": "Final Twelve Group B",
+                    "home": "Pelita Mastrans",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                },
+                {
+                    "date": "1997-07-23",
+                    "stage": "Semifinal",
+                    "home": "Persebaya Surabaya",
+                    "home_score": 3,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF/Arsip"
+                }
+            ],
+            "data_gaps": [
+                "Two regular-season dates still null in extracted source; scores are present."
+            ]
+        },
+        {
+            "season": "1997/98",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position_at_abandonment": 1,
+                "played": 15,
+                "won": 9,
+                "drawn": 3,
+                "lost": 3,
+                "goals_for": 33,
+                "goals_against": 8,
+                "points": 30,
+                "note": "competition abandoned/cancelled"
+            },
+            "coverage": "partial_abandoned_season",
+            "matches": [
+                {
+                    "date": "1998-04-04",
+                    "stage": "Wilayah Timur",
+                    "home": "Putra Samarinda",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1998-04-12",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Mitra Surabaya",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1998-04-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 8,
+                    "away": "Persema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1998-04-22",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "1998-04-26",
+                    "stage": "Wilayah Timur",
+                    "home": "Persma Manado",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                }
+            ],
+            "data_gaps": [
+                "Only 5 of 15 PSM matches extracted here; season was abandoned on/around 25 May 1998."
+            ]
+        },
+        {
+            "season": "1998/99",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Group E",
+                "position": 2,
+                "played": 10,
+                "won": 5,
+                "drawn": 1,
+                "lost": 4,
+                "goals_for": 13,
+                "goals_against": 11,
+                "points": 16,
+                "final_stage": "playoff group Q; eliminated"
+            },
+            "coverage": "mostly_complete_group_stage_with_3_dates_requiring_manual_verification_plus_playoff",
+            "matches": [
+                {
+                    "date": "1998-11-08",
+                    "stage": "Group E",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persipura Jayapura",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1998-11-15",
+                    "stage": "Group E",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persiba Balikpapan",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1998-11-19",
+                    "stage": "Group E",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Persma Manado",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1998-11-29",
+                    "stage": "Group E",
+                    "home": "Persipura Jayapura",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Group E",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "note": "date not recovered; score inferred from table/matrix",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-01-31",
+                    "stage": "Group E",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Putra Samarinda",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-02-04",
+                    "stage": "Group E",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-02-11",
+                    "stage": "Group E",
+                    "home": "Persma Manado",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Group E",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "note": "date not recovered; score inferred from table/matrix",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Group E",
+                    "home": "Putra Samarinda",
+                    "home_score": 2,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "note": "date not recovered; score inferred from table totals",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-03-18",
+                    "stage": "Playoff Group Q",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Pelita Bakrie",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-03-20",
+                    "stage": "Playoff Group Q",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-03-23",
+                    "stage": "Playoff Group Q",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 0,
+                    "away": "Persija Jakarta",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-03-25",
+                    "stage": "Playoff Group Q",
+                    "home": "PSMS Medan",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                }
+            ],
+            "data_gaps": [
+                "Three Group E dates require manual verification; scores reconcile with final table."
+            ]
+        },
+        {
+            "season": "1999/2000",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 1,
+                "played": 26,
+                "won": 16,
+                "drawn": 8,
+                "lost": 2,
+                "goals_for": 41,
+                "goals_against": 13,
+                "points": 56,
+                "final_position": "champion"
+            },
+            "coverage": "complete_regular_plus_championship_round",
+            "matches": [
+                {
+                    "date": "1999-11-25",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Arema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "1999-11-28",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Petrokimia Putra",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-01-16",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIM Yogyakarta",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-01-20",
+                    "stage": "Wilayah Timur",
+                    "home": "Pelita Solo",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-01-23",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIS Semarang",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-02-03",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Persema Malang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-02-06",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 5,
+                    "away": "Gelora Dewata",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-02-08",
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-02-17",
+                    "stage": "Wilayah Timur",
+                    "home": "Persebaya Surabaya",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-02-20",
+                    "stage": "Wilayah Timur",
+                    "home": "Barito Putra",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-02-27",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Persma Manado",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-03-02",
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-03-12",
+                    "stage": "Wilayah Timur",
+                    "home": "Putra Samarinda",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-04-02",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Putra Samarinda",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-04-06",
+                    "stage": "Wilayah Timur",
+                    "home": "Arema Malang",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-04-12",
+                    "stage": "Wilayah Timur",
+                    "home": "Petrokimia Putra",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-04-26",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "PSIM Yogyakarta",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-04-30",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "PSIS Semarang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-05-04",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Pelita Solo",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-05-14",
+                    "stage": "Wilayah Timur",
+                    "home": "Persema Malang",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-05-18",
+                    "stage": "Wilayah Timur",
+                    "home": "Gelora Dewata",
+                    "home_score": 1,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-05-24",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 2,
+                    "away": "Barito Putra",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-05-31",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-06-04",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "Persipura Jayapura",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-06-11",
+                    "stage": "Wilayah Timur",
+                    "home": "Persma Manado",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-06-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 0,
+                    "status": "awarded",
+                    "note": "WO",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-07-09",
+                    "stage": "Final Group A",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 1,
+                    "away": "PSMS Medan",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-07-11",
+                    "stage": "Final Group A",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-07-13",
+                    "stage": "Final Group A",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 4,
+                    "away": "Persijatim Jakarta Timur",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-07-20",
+                    "stage": "Semifinal",
+                    "home": "Persija Jakarta",
+                    "home_score": 0,
+                    "away": "PSM Ujung Pandang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2000-07-23",
+                    "stage": "Final",
+                    "home": "PSM Ujung Pandang",
+                    "home_score": 3,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                }
+            ],
+            "data_gaps": []
+        },
+        {
+            "season": "2001",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 1,
+                "played": 25,
+                "won": 16,
+                "drawn": 6,
+                "lost": 3,
+                "goals_for": 36,
+                "goals_against": 12,
+                "points": 54,
+                "final_position": "runner-up"
+            },
+            "coverage": "partial_regular_plus_championship_round",
+            "matches": [
+                {
+                    "date": "2001-02-25",
+                    "stage": "Wilayah Timur",
+                    "home": "Pelita Solo",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-03-03",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Barito Putra",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-05-17",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 4,
+                    "away": "Persijap Jepara",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-06-13",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 7,
+                    "away": "Putra Samarinda",
+                    "away_score": 0,
+                    "status": "annulled",
+                    "note": "Putra Samarinda withdrew; result not counted in final table",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-07-15",
+                    "stage": "Wilayah Timur",
+                    "home": "Persebaya Surabaya",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-07-19",
+                    "stage": "Wilayah Timur",
+                    "home": "Petrokimia Putra",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-07-22",
+                    "stage": "Wilayah Timur",
+                    "home": "Malang United",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-07-29",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Gelora Putra Delta",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-08-02",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Arema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-09-28",
+                    "stage": "Quarterfinal Group",
+                    "home": "PSM Makassar",
+                    "home_score": 0,
+                    "away": "Persija Jakarta",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-09-30",
+                    "stage": "Quarterfinal Group",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Arema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-10-04",
+                    "stage": "Semifinal",
+                    "home": "PSMS Medan",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "note": "PSM won 3-2 on penalties",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2001-10-07",
+                    "stage": "Final",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persija Jakarta",
+                    "away_score": 3,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                }
+            ],
+            "data_gaps": [
+                "Regular-season extraction incomplete: table confirms 25 counted matches; only 9 regular/annulled matches listed here."
+            ]
+        },
+        {
+            "season": "2002",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 4,
+                "played": 22,
+                "won": 10,
+                "drawn": 4,
+                "lost": 8,
+                "goals_for": 31,
+                "goals_against": 29,
+                "points": 34,
+                "final_position": "semifinalist"
+            },
+            "coverage": "complete_regular_plus_second_stage",
+            "matches": [
+                {
+                    "date": "2002-01-13",
+                    "stage": "Wilayah Timur",
+                    "home": "Petrokimia Putra",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-01-17",
+                    "stage": "Wilayah Timur",
+                    "home": "Persema Malang",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-01-25",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persipura Jayapura",
+                    "away_score": 2,
+                    "status": "played",
+                    "note": "remaining 43 minutes from abandoned Jan 24 match",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-01-30",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "PSS Sleman",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-02-03",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "PSIS Semarang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-02-10",
+                    "stage": "Wilayah Timur",
+                    "home": "Persebaya Surabaya",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-02-14",
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-02-20",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Barito Putra",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-02-24",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Gelora Delta Putra",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-03-02",
+                    "stage": "Wilayah Timur",
+                    "home": "Persedikab Kediri",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-03-07",
+                    "stage": "Wilayah Timur",
+                    "home": "Persijatim Jakarta Timur",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-03-17",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 0,
+                    "away": "Petrokimia Putra",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-03-21",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-03-28",
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-04-03",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIS Semarang",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-04-07",
+                    "stage": "Wilayah Timur",
+                    "home": "PSS Sleman",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-04-14",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-04-18",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-04-24",
+                    "stage": "Wilayah Timur",
+                    "home": "Gelora Delta Putra",
+                    "home_score": 5,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-04-28",
+                    "stage": "Wilayah Timur",
+                    "home": "Barito Putra",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-05-05",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 4,
+                    "away": "Persedikab Kediri",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-05-09",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persijatim Jakarta Timur",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-05-19",
+                    "stage": "Second Stage Group L",
+                    "home": "Persija Jakarta",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-05-22",
+                    "stage": "Second Stage Group L",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Barito Putra",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-05-25",
+                    "stage": "Second Stage Group L",
+                    "home": "Semen Padang",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2002-07-03",
+                    "stage": "Semifinal",
+                    "home": "Persita Tangerang",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                }
+            ],
+            "data_gaps": []
+        },
+        {
+            "season": "2003",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "national full league",
+                "position": 2,
+                "played": 38,
+                "won": 18,
+                "drawn": 8,
+                "lost": 12,
+                "goals_for": 68,
+                "goals_against": 48,
+                "points": 62,
+                "final_position": "runner-up"
+            },
+            "coverage": "partial_sample_only",
+            "matches": [
+                {
+                    "date": "2003-01-12",
+                    "stage": "Regular Season",
+                    "home": "Persipura Jayapura",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia/search snippet"
+                },
+                {
+                    "date": "2003-01-22",
+                    "stage": "Regular Season",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Arema Malang",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia/search snippet"
+                },
+                {
+                    "date": "2003-01-25",
+                    "stage": "Regular Season",
+                    "home": "PSM Makassar",
+                    "home_score": 4,
+                    "away": "Perseden Denpasar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia/search snippet"
+                },
+                {
+                    "date": "2003-08-20",
+                    "stage": "Regular Season",
+                    "home": "PSS Sleman",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2003-08-24",
+                    "stage": "Regular Season",
+                    "home": "Persijatim Solo FC",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                }
+            ],
+            "data_gaps": [
+                "Only 5 of 38 matches extracted; page contains more but requires full parsing/manual scrape."
+            ]
+        },
+        {
+            "season": "2004",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "national full league",
+                "position": 2,
+                "played": 34,
+                "won": 17,
+                "drawn": 10,
+                "lost": 7,
+                "goals_for": 46,
+                "goals_against": 28,
+                "points": 61,
+                "final_position": "runner-up"
+            },
+            "coverage": "partial_sample_only",
+            "matches": [
+                {
+                    "date": "2004-05-23",
+                    "stage": "Regular Season",
+                    "home": "Semen Padang",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia/search snippet"
+                },
+                {
+                    "date": "2004-05-27",
+                    "stage": "Regular Season",
+                    "home": "Persita Tangerang",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia/search snippet"
+                },
+                {
+                    "date": "2004-09-26",
+                    "stage": "Regular Season",
+                    "home": "Persik Kediri",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2004-09-29",
+                    "stage": "Regular Season",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                }
+            ],
+            "data_gaps": [
+                "Only 4 of 34 matches extracted; page contains more but requires full parsing/manual scrape."
+            ]
+        },
+        {
+            "season": "2005",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 2,
+                "played": 26,
+                "won": 14,
+                "drawn": 3,
+                "lost": 9,
+                "goals_for": 42,
+                "goals_against": 29,
+                "points": 45,
+                "final_stage": "8 besar group; eliminated"
+            },
+            "coverage": "partial_final_group_only_plus_table",
+            "matches": [
+                {
+                    "date": "2005-09-16",
+                    "stage": "8 Besar Group Barat",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2005-09-18",
+                    "stage": "8 Besar Group Barat",
+                    "home": "Persija Jakarta",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                },
+                {
+                    "date": "2005-09-21",
+                    "stage": "8 Besar Group Barat",
+                    "home": "PSM Makassar",
+                    "home_score": 0,
+                    "away": "PSIS Semarang",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "Arsip Sepak Bola Indonesia"
+                }
+            ],
+            "data_gaps": [
+                "Regular-season match list not extracted; table confirms 26 regular matches."
+            ]
+        },
+        {
+            "season": "2006",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 3,
+                "played": 26,
+                "won": 12,
+                "drawn": 6,
+                "lost": 8,
+                "goals_for": 44,
+                "goals_against": 32,
+                "points": 42,
+                "final_stage": "8 besar group; eliminated"
+            },
+            "coverage": "mostly_complete_regular_plus_8_besar_4_regular_scores_missing",
+            "matches": [
+                {
+                    "date": "2006-02-11",
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-02-14",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-02-18",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persegi Mojokerto",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-02-21",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 4,
+                    "away": "Persema Malang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-02-25",
+                    "stage": "Wilayah Timur",
+                    "home": "Persela Lamongan",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-02-28",
+                    "stage": "Wilayah Timur",
+                    "home": "Persik Kediri",
+                    "home_score": 6,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-03-12",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiter Ternate",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 3,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-03-19",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "PSS Sleman",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-03-22",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Deltras Sidoarjo",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-04-09",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persmin Minahasa",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-04-12",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 5,
+                    "away": "Persibom Bolaang Mongondow",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-04-30",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Pupuk Kaltim",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-03",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persiba Balikpapan",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-09",
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-13",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiwa Wamena",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-20",
+                    "stage": "Wilayah Timur",
+                    "home": "Persegi Mojokerto",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 4,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-23",
+                    "stage": "Wilayah Timur",
+                    "home": "Persema Malang",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-27",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persela Lamongan",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-05-30",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persik Kediri",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-06-11",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persiter Ternate",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-06-21",
+                    "stage": "Wilayah Timur",
+                    "home": "PSS Sleman",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 3,
+                    "status": "awarded",
+                    "note": "PSS withdrawal/awarded result",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-06-24",
+                    "stage": "Wilayah Timur",
+                    "home": "Deltras Sidoarjo",
+                    "home_score": 4,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persmin Minahasa",
+                    "home_score": null,
+                    "away": "PSM Makassar",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persibom Bolaang Mongondow",
+                    "home_score": null,
+                    "away": "PSM Makassar",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": null,
+                    "away": "Persipura Jayapura",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": null,
+                    "away": "Persiwa Wamena",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-07-17",
+                    "stage": "8 Besar Group Timur",
+                    "home": "Persmin Minahasa",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-07-19",
+                    "stage": "8 Besar Group Timur",
+                    "home": "Persija Jakarta",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2006-07-22",
+                    "stage": "8 Besar Group Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persekabpas Pasuruan",
+                    "away_score": 5,
+                    "status": "played",
+                    "source": "RSSSF"
+                }
+            ],
+            "data_gaps": [
+                "4 regular-season scores not recovered in current extraction; season final table confirms total 26 matches."
+            ]
+        },
+        {
+            "season": "2007",
+            "competition": "Divisi Utama Liga Indonesia",
+            "season_summary": {
+                "stage": "Wilayah Timur",
+                "position": 5,
+                "played": 34,
+                "won": 17,
+                "drawn": 6,
+                "lost": 11,
+                "goals_for": 43,
+                "goals_against": 33,
+                "points": 57,
+                "note": "qualified to Liga Super 2008"
+            },
+            "coverage": "mostly_complete_regular_31_scores_plus_3_missing_placeholders",
+            "matches": [
+                {
+                    "date": "2007-02-21",
+                    "stage": "Wilayah Timur",
+                    "home": "Persmin Minahasa",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-02-25",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persegi Bali",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-02-28",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persebaya Surabaya",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-03-04",
+                    "stage": "Wilayah Timur",
+                    "home": "Deltras Sidoarjo",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-03-07",
+                    "stage": "Wilayah Timur",
+                    "home": "PSIM Yogyakarta",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-03-17",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persibom Bolaang Mongondow",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-03-20",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persma Manado",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-03-27",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Perseman Manokwari",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-04-07",
+                    "stage": "Wilayah Timur",
+                    "home": "Persipura Jayapura",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-04-10",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiwa Wamena",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-04-14",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persijap Jepara",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-04-17",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persis Solo",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-04-22",
+                    "stage": "Wilayah Timur",
+                    "home": "Arema Malang",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-04-26",
+                    "stage": "Wilayah Timur",
+                    "home": "Persekabpas Pasuruan",
+                    "home_score": 0,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-05",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Arema Malang",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-08",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persekabpas Pasuruan",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-14",
+                    "stage": "Wilayah Timur",
+                    "home": "Perseman Manokwari",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-19",
+                    "stage": "Wilayah Timur",
+                    "home": "Persijap Jepara",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-22",
+                    "stage": "Wilayah Timur",
+                    "home": "Persis Solo",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-26",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 0,
+                    "away": "Persipura Jayapura",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-08-30",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Persiwa Wamena",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-10-18",
+                    "stage": "Wilayah Timur",
+                    "home": "Persibom Bolaang Mongondow",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-10-21",
+                    "stage": "Wilayah Timur",
+                    "home": "Persma Manado",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-11-29",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "Deltras Sidoarjo",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-02",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 2,
+                    "away": "PSIM Yogyakarta",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-06",
+                    "stage": "Wilayah Timur",
+                    "home": "Persegi Bali",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-09",
+                    "stage": "Wilayah Timur",
+                    "home": "Persebaya Surabaya",
+                    "home_score": 2,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-15",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 1,
+                    "away": "Persiter Ternate",
+                    "away_score": 0,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-23",
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": 3,
+                    "away": "Persmin Minahasa",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-27",
+                    "stage": "Wilayah Timur",
+                    "home": "Pupuk Kaltim",
+                    "home_score": 1,
+                    "away": "PSM Makassar",
+                    "away_score": 2,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": "2007-12-30",
+                    "stage": "Wilayah Timur",
+                    "home": "Persiba Balikpapan",
+                    "home_score": 3,
+                    "away": "PSM Makassar",
+                    "away_score": 1,
+                    "status": "played",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": null,
+                    "away": "Pupuk Kaltim",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "PSM Makassar",
+                    "home_score": null,
+                    "away": "Persiba Balikpapan",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                },
+                {
+                    "date": null,
+                    "stage": "Wilayah Timur",
+                    "home": "Persiter Ternate",
+                    "home_score": null,
+                    "away": "PSM Makassar",
+                    "away_score": null,
+                    "status": "missing_in_extracted_list",
+                    "source": "RSSSF"
+                }
+            ],
+            "data_gaps": [
+                "3 of 34 regular-season matches were not recovered in the visible extracted chunks; final table confirms complete season total."
+            ]
+        }
+    ]
+}
