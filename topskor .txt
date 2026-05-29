@@ -1,0 +1,107 @@
+1	
+Ferdinan Sinaga	Ferdinan Sinaga
+Tanpa Klub
+Indonesia	18.09.1988	126	151'	0,37	47
+2	
+Wiljan Pluim	Wiljan Pluim
+SV Epe
+Belanda	04.01.1989	178	324'	0,26	47
+3	
+Zulham Zamrun	Zulham Zamrun
+Tanpa Klub
+Indonesia	19.02.1988	75	187'	0,33	25
+4	
+Yakob Sayuri	Yakob Sayuri
+Malut United FC
+Indonesia	22.09.1997	105	322'	0,24	25
+5	
+Kenzo Nambu	Kenzo Nambu
+Persipal FC
+Jepang	22.08.1992	74	210'	0,31	23
+6	
+Rahmat	Rahmat
+Bali United FC
+Indonesia	28.05.1988	124	373'	0,18	22
+7	
+Yuran Fernandes	Yuran Fernandes
+PSM Makassar
+Tanjung Verde	19.10.1994	133	559'	0,16	21
+8	
+Marc Klok	Marc Klok
+PERSIB Bandung
+Indonesia
+Belanda	20.04.1993	102	523'	0,17	17
+9	
+Nermin Haljeta	Nermin Haljeta
+PSIM Yogyakarta
+Slovenia
+Bosnia-Herzegovina	07.06.1997	38	203'	0,42	16
+10	
+Rizky Pellu	Rizky Pellu
+Malut United FC
+Indonesia	26.06.1992	121	571'	0,13	16
+11	
+Everton	Everton
+Garudayaksa FC
+Brasil	03.07.1993	61	328'	0,23	14
+12	
+Guy Junior	Guy Junior
+Tanpa Klub
+Indonesia
+Kamerun	30.08.1986	54	257'	0,24	13
+13	
+Eero Markkanen	Eero Markkanen
+Gilla FC
+Finlandia	03.07.1991	21	113'	0,52	11
+14	
+Ramadhan Sananta	Ramadhan Sananta
+Brunei DPMM FC
+Indonesia	27.11.2002	28	121'	0,39	11
+15	
+Adilson Silva	Adilson Silva
+Adhyaksa FC Banten
+Portugal
+Angola	30.07.1997	54	292'	0,20	11
+16	
+Reinaldo	Reinaldo
+Pensiun
+Brasil
+Australia	13.06.1984	17	152'	0,53	9
+17	
+Rasyid Bakri	Rasyid Bakri
+PSM Makassar
+Indonesia	17.01.1991	178	962'	0,05	9
+18	
+Aloísio Neto	Aloísio Neto
+PSM Makassar
+Brasil	16.08.1997	69	756'	0,12	8
+19	
+Yance Sayuri	Yance Sayuri
+Malut United FC
+Indonesia	22.09.1997	94	933'	0,07	7
+20	
+Amido Baldé	Amido Baldé
+Tanpa Klub
+Guinea-Bissau
+Portugal	16.05.1991	14	165'	0,43	6
+21	
+Alex Tanque	Alex Tanque
+PSM Makassar
+Brasil	14.04.1994	29	316'	0,21	6
+22	
+Abdul Rahman	Abdul Rahman
+PSM Makassar
+Indonesia	01.08.2002	52	211'	0,12	6
+23	
+Victor Dethan	Victor Dethan
+PSM Makassar
+Indonesia
+Kanada	11.07.2004	95	668'	0,06	6
+24	
+Rizky Eka Pratama	Rizky Eka Pratama
+PSM Makassar
+Indonesia	24.12.1999	200	1.707'	0,03	6
+25	
+Ponaryo Astaman	Ponaryo Astaman
+Pensiun
+Indonesia	25.09.1979	13	234'	0,38	5
